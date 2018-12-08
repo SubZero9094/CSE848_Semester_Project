@@ -1,0 +1,127 @@
+Gen: 3818
+GetA 10
+Add 2 7 9
+Mult 8 12 7
+Div 15 6 13
+While 5 11 --> 
+            Add 10 10 4
+            GetA 15
+            Sub 7 15 7
+            Div 7 4 11
+            Inc 12
+            Div 7 11 4
+            Inc 15
+            Mult 10 15 15
+            Inc 4
+            Mult 2 4 7
+            Div 12 6 8
+            Mod 7 8 5
+            Sub 13 3 11
+            Mult 4 13 2
+            SetAns 2
+
+Gen: 3820
+GetA 10
+Mult 4 12 7
+Div 15 6 13
+While 5 1 --> 
+  Add 10 10 4
+  GetA 15
+  Sub 7 13 7
+  Div 7 4 11
+  Inc 12
+  Div 7 11 4
+  Inc 15
+  Mult 10 15 15
+  Inc 4
+  Mult 13 4 7
+  Div 12 6 8
+  Mod 7 8 5
+  Mult 4 13 2
+  SetAns 2
+
+Gen: 4136
+GetA 10
+Mult 4 12 7
+Div 15 6 13
+Add 10 10 4
+GetA 15
+Div 7 4 11
+Not 8
+Countdown 5 1 --> 
+  Inc 12
+  Div 7 11 4
+  Inc 15
+  Mult 10 15 15
+  Inc 4
+  Mult 13 4 7
+  Mod 7 8 5
+  Mult 4 13 2
+  SetAns 2
+
+Gen: 4226
+GetA 10
+Mult 11 3 7
+Div 15 6 13
+Add 10 10 4
+GetA 15
+Sub 7 13 7
+Div 7 4 11
+Not 8
+Countdown 5 1 --> 
+  Div 7 11 4
+  Inc 15
+  Mult 10 15 15
+  Inc 4
+  Mult 13 4 7
+  Mod 7 8 5
+  SetAns 7
+
+Gen: 4458
+Mod 11 9 7
+GetA 10
+Div 15 6 13
+Add 10 10 4
+GetA 15
+Div 7 4 11
+Countdown 5 5 --> 
+      Div 7 11 4
+      Inc 15
+      Mult 10 15 15
+      Inc 4
+      Mult 13 4 7
+      TestNEqu 0 7 8
+      Mod 7 8 5
+      SetAns 7
+
+Gen: 4503
+GetA 10
+Div 15 6 13
+Add 10 10 4
+GetA 15
+Sub 2 11 7
+Div 7 4 11
+Countdown 5 10 --> 
+           Div 7 11 4
+           Inc 15
+           Mult 10 15 15
+           Inc 4
+           Mult 13 4 7
+           Mod 7 1 5
+           SetAns 7
+
+Gen: 4686
+Div 15 6 13
+Add 10 10 4
+GetA 10
+GetA 15
+Div 7 4 11
+Countdown 5 12 --> 
+             Div 7 11 4
+             Inc 15
+             Mult 10 15 15
+             Inc 4
+             Mult 13 4 7
+             Mod 7 1 5
+             SetAns 7
+

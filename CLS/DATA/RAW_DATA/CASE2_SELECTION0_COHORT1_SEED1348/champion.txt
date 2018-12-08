@@ -1,0 +1,193 @@
+Gen: 9457
+Div 12 6 15
+While 6 1 --> 
+  Mult 2 7 12
+  Mult 15 12 14
+  Add 7 9 2
+  SetAns 14
+  Scope 10 --> 
+           CopyVal 12 14
+           GetA 9
+           Pop 8 3
+           Inc 7
+           Add 7 4 0
+           Not 4
+   If 4 3 --> 
+    Mult 7 0 11
+    GetA 15
+    Add 12 9 8
+    TestLess 9 14 2
+    GetA 7
+    GetA 14
+    Mod 8 5 4
+    TestNEqu 7 3 3
+    Scope 12 --> 
+             Inc 9
+
+Gen: 9459
+Div 12 6 15
+While 11 1 --> 
+  Mult 2 7 12
+  Mult 15 12 14
+  Add 7 9 2
+  SetAns 14
+  Scope 10 --> 
+           CopyVal 12 14
+           GetA 9
+           Pop 8 3
+           Inc 7
+           Add 10 4 0
+           Not 4
+   If 4 3 --> 
+    Mult 7 0 11
+    GetA 15
+    Add 12 9 8
+    TestLess 9 14 2
+    GetA 7
+    GetA 14
+    Mod 8 5 4
+    TestNEqu 7 3 3
+    Inc 9
+
+Gen: 9460
+Div 12 6 15
+While 6 1 --> 
+  Mult 2 7 12
+  Mult 15 12 14
+  Add 7 9 2
+  SetAns 14
+  Output 10 3
+  GetA 9
+  Pop 8 3
+  Inc 7
+  Add 7 4 10
+  Not 4
+  If 4 3 --> 
+    GetA 15
+    Add 12 9 8
+    TestLess 9 7 2
+    GetA 7
+    GetA 14
+    Mod 8 5 4
+    TestNEqu 7 3 3
+    Scope 12 --> 
+             Inc 9
+
+Gen: 9469
+Div 12 6 15
+Mult 2 7 12
+Mult 15 12 14
+Add 7 9 2
+SetAns 14
+Scope 10 --> 
+           Output 10 3
+           GetA 9
+           Pop 8 3
+           Inc 7
+           Not 4
+   If 4 3 --> 
+    Mult 7 7 11
+    GetA 15
+    Add 12 9 8
+    TestLess 9 7 2
+    GetA 7
+    GetA 14
+    Mod 8 5 4
+    Scope 12 --> 
+             Inc 9
+
+Gen: 9510
+Div 12 6 15
+Mult 2 7 12
+Mult 15 12 14
+Add 7 9 2
+SetAns 14
+Output 8 3
+GetA 9
+Inc 7
+Not 4
+If 4 3 --> 
+    Mult 7 0 1
+    GetA 14
+    Add 12 9 8
+    TestLess 9 7 2
+    GetA 7
+    GetA 14
+    Mod 8 5 4
+    Scope 5 --> 
+      Inc 9
+
+Gen: 9560
+Div 12 6 15
+Mult 2 7 12
+Mult 15 12 14
+Add 7 9 2
+SetAns 14
+CopyVal 12 10
+GetA 9
+Inc 7
+Pop 6 0
+Not 4
+If 4 7 --> 
+        Add 12 9 8
+        TestLess 15 14 2
+        GetA 7
+        GetA 0
+        Mod 8 5 4
+        Sub 6 11 8
+        Inc 9
+
+Gen: 9572
+Div 12 6 15
+Countdown 11 3 --> 
+    Mult 2 7 12
+    Mult 15 12 14
+    Add 7 9 2
+    SetAns 14
+    GetA 9
+    Inc 7
+    Add 13 0 14
+    Not 4
+    If 4 9 --> 
+          Add 12 9 8
+          TestLess 9 7 2
+          GetA 7
+          GetA 1
+          Mod 8 5 4
+          Inc 9
+
+Gen: 9579
+Div 12 6 15
+Mult 2 7 12
+Mult 15 12 14
+Add 7 9 2
+SetAns 14
+GetA 9
+Inc 7
+Add 13 0 14
+Not 4
+If 4 9 --> 
+          Add 12 9 8
+          TestLess 9 7 2
+          GetA 7
+          GetA 1
+          Mod 8 5 4
+          Inc 9
+
+Gen: 9693
+Div 12 6 15
+Countdown 11 4 --> 
+     Mult 2 7 12
+     Mult 15 12 14
+     Add 7 9 2
+     SetAns 14
+     GetA 9
+     Inc 7
+     Not 4
+     If 4 14 --> 
+               Add 12 9 8
+               TestLess 1 12 2
+               GetA 7
+               Mod 8 5 4
+               Inc 9
+

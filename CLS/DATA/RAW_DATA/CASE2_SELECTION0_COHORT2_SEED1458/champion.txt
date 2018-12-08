@@ -1,0 +1,280 @@
+Gen: 2472
+TestNEqu 11 4 2
+TestNEqu 1 0 14
+Scope 14 --> 
+               SetAns 0
+               Sub 11 4 12
+               SetReg 15 15
+               Div 0 9 5
+               Div 4 5 9
+               GetA 4
+               SetReg 2 15
+               GetA 11
+               Div 5 6 0
+               Mult 1 10 9
+               Inc 11
+             Countdown 10 13 --> 
+              Mult 12 11 7
+              ScopeReg 8
+              Add 4 11 0
+              Div 12 4 1
+              Mult 10 1 8
+              Input 0 11
+              Mult 7 0 0
+              SetReg 2 5
+
+Gen: 2473
+TestNEqu 11 4 2
+TestNEqu 1 0 14
+Scope 14 --> 
+               SetAns 0
+               Sub 11 4 12
+               SetReg 15 15
+               Div 0 9 5
+               Div 4 8 9
+               GetA 4
+               SetReg 2 15
+               GetA 11
+               Div 5 6 0
+               Mult 1 10 9
+               Inc 11
+             Countdown 10 13 --> 
+              Mult 12 11 7
+              Add 4 11 0
+              Div 12 4 1
+              Mult 10 1 8
+              Input 0 11
+              Mult 7 0 0
+              SetReg 2 5
+
+Gen: 2475
+TestNEqu 11 4 2
+Scope 14 --> 
+               SetAns 0
+               Sub 11 4 12
+               SetReg 15 15
+               Div 0 9 5
+               Div 4 5 9
+               GetA 4
+               SetReg 2 15
+               GetA 11
+               Div 5 6 0
+               Mult 1 10 9
+               Inc 11
+             Countdown 10 13 --> 
+              Mult 12 11 7
+              ScopeReg 8
+              Add 4 11 0
+              Div 12 4 1
+              Mult 10 1 8
+              Input 0 11
+              Mult 7 0 0
+
+Gen: 2478
+TestNEqu 11 4 2
+Scope 14 --> 
+               SetAns 0
+               Sub 11 4 12
+               SetReg 15 15
+               Div 0 9 5
+               GetA 4
+               SetReg 2 15
+               GetA 11
+               Div 5 6 0
+               Mult 1 10 9
+               Inc 11
+             Countdown 10 13 --> 
+              Mult 12 11 7
+              ScopeReg 8
+              Add 4 11 0
+              Div 12 4 1
+              Input 0 11
+              Mult 7 0 0
+              SetReg 2 5
+
+Gen: 2486
+TestNEqu 11 4 2
+Scope 14 --> 
+               SetAns 0
+               Sub 11 4 12
+               SetReg 15 15
+               Div 0 9 5
+               GetA 4
+               SetReg 2 15
+               GetA 11
+               Div 5 6 0
+               Mult 1 10 9
+               Inc 11
+             Countdown 10 13 --> 
+              Mult 12 11 7
+              ScopeReg 8
+              Add 4 11 0
+              Div 12 4 1
+              Input 0 11
+              Mult 7 0 0
+
+Gen: 2495
+TestNEqu 11 4 2
+Scope 14 --> 
+               SetAns 0
+               Sub 11 4 12
+               SetReg 15 15
+               Div 0 9 5
+               GetA 4
+               GetA 11
+               Div 5 6 0
+               Mult 1 10 9
+               Inc 11
+             Countdown 10 13 --> 
+              Mult 12 11 7
+              Add 4 11 0
+              Div 12 4 1
+              Input 0 11
+              Mult 7 0 0
+              SetReg 2 15
+
+Gen: 2515
+SetAns 0
+Sub 11 4 12
+Div 0 9 5
+Output 14 5
+GetA 4
+GetA 11
+Div 5 6 0
+Mult 1 10 9
+Inc 11
+Countdown 10 13 --> 
+              Mult 12 11 7
+              ScopeReg 2
+              Add 4 11 0
+              Div 12 4 1
+              Mult 15 1 8
+              Mult 7 0 0
+              Pop 3 11
+
+Gen: 2543
+TestNEqu 11 7 2
+SetAns 13
+SetAns 0
+Div 0 9 5
+GetA 12
+GetA 11
+Div 5 6 0
+Mult 1 10 9
+Inc 11
+Countdown 10 13 --> 
+              GetA 4
+              Mult 12 11 7
+              Add 4 11 0
+              Input 0 2
+              Mult 7 0 0
+              Mult 4 10 12
+
+Gen: 2547
+TestNEqu 11 7 2
+SetAns 0
+TestLess 13 3 7
+Div 0 9 5
+GetA 12
+GetA 11
+Div 5 6 0
+Mult 1 10 9
+Inc 11
+Countdown 10 11 --> 
+            GetA 4
+            Mult 12 11 7
+            Add 4 11 0
+            Input 0 4
+            Mult 7 0 0
+
+Gen: 2552
+TestNEqu 11 7 2
+SetAns 0
+Div 0 9 5
+GetA 12
+GetA 11
+Div 5 6 0
+Mult 1 10 9
+Inc 11
+Countdown 10 10 --> 
+           GetA 4
+           Mult 12 11 7
+           Add 4 11 0
+           Mult 7 0 0
+           Mult 4 10 12
+
+Gen: 2623
+SetAns 0
+Div 0 9 5
+GetA 12
+GetA 11
+Div 5 6 0
+Mult 10 10 9
+Inc 11
+Countdown 10 10 --> 
+           GetA 4
+           Mult 12 11 7
+           Add 4 11 0
+           Mult 7 0 0
+           Mult 4 1 2
+
+Gen: 2666
+SetAns 0
+Div 0 9 5
+GetA 12
+GetA 11
+Div 5 6 0
+Mult 1 10 9
+Inc 11
+Countdown 10 10 --> 
+           GetA 4
+           Mult 12 11 7
+           Add 4 11 0
+           Mult 7 0 0
+
+Gen: 2770
+SetAns 0
+Div 0 10 5
+GetA 12
+GetA 11
+Div 5 6 0
+Inc 11
+Countdown 10 14 --> 
+               GetA 4
+               Mult 4 11 7
+               Add 4 11 0
+               Mult 7 0 0
+
+Gen: 2795
+SetAns 0
+Div 0 10 5
+GetA 11
+Div 5 6 0
+Inc 11
+Countdown 10 5 --> 
+      GetA 4
+      Mult 4 11 7
+      Add 4 11 0
+      Mult 7 0 0
+
+Gen: 2899
+SetAns 0
+GetA 11
+Div 5 6 0
+Inc 11
+Countdown 10 8 --> 
+         GetA 4
+         Mult 4 11 7
+         Add 4 11 0
+         Mult 7 0 5
+
+Gen: 3412
+GetA 11
+Div 5 6 0
+SetAns 0
+Inc 11
+GetA 4
+Mult 4 11 7
+Add 4 11 0
+Mult 7 0 5
+

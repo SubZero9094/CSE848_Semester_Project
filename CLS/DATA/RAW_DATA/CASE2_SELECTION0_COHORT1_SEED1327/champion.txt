@@ -1,0 +1,180 @@
+Gen: 9574
+TestEqu 5 11 0
+Mod 4 12 0
+CopyVal 5 14
+While 11 14 --> 
+               Add 0 15 0
+               Dec 11
+ Scope 1 --> 
+  Output 5 14
+  GetA 2
+  Div 1 13 4
+  Mult 0 10 14
+  GetA 5
+  Div 0 14 12
+  Inc 5
+  Add 2 5 10
+  Countdown 11 12 --> 
+         Scope 9 --> 
+          SetReg 7 9
+          Mod 14 4 12
+          Sub 14 12 14
+          Sub 6 1 4
+          SetAns 14
+          GetA 11
+          Div 5 6 15
+
+Gen: 9575
+TestEqu 5 11 0
+Mod 4 12 0
+CopyVal 5 14
+While 11 14 --> 
+               Add 0 15 0
+               Dec 11
+ Scope 1 --> 
+  Output 5 14
+  GetA 2
+  Div 1 13 4
+  Mult 0 10 14
+  GetA 5
+  Div 0 14 12
+  Inc 5
+  Add 2 5 10
+  Countdown 11 12 --> 
+         Scope 9 --> 
+          Mod 14 4 12
+          Sub 14 12 14
+          Sub 6 1 4
+          SetAns 14
+          GetA 11
+          Div 5 6 15
+
+Gen: 9576
+TestEqu 5 11 0
+Mod 4 12 0
+CopyVal 5 14
+While 11 14 --> 
+               Add 0 15 0
+               Dec 11
+ Scope 1 --> 
+  GetA 2
+  Div 1 13 4
+  Mult 0 10 14
+  GetA 5
+  Inc 5
+  Add 2 5 10
+  Countdown 11 12 --> 
+         Scope 9 --> 
+          SetReg 7 9
+          Mod 14 4 12
+          Sub 14 12 14
+          Sub 6 1 4
+          SetAns 14
+          GetA 11
+          Div 5 6 15
+
+Gen: 9587
+TestEqu 5 11 0
+Mod 8 12 0
+While 11 14 --> 
+               Add 0 15 0
+               Dec 11
+ Scope 1 --> 
+  Output 5 14
+  GetA 2
+  Div 1 13 4
+  Mult 0 10 14
+  GetA 5
+  Inc 5
+  Add 2 5 10
+  Scope 9 --> 
+          SetReg 7 9
+          Mod 14 4 12
+          Sub 14 12 14
+          Sub 6 1 7
+          SetAns 14
+          GetA 11
+          Div 5 6 15
+
+Gen: 9590
+TestEqu 5 11 0
+Mod 8 12 0
+While 11 14 --> 
+               Add 0 15 0
+               Dec 11
+ Scope 1 --> 
+  GetA 2
+  Div 1 13 4
+  Mult 0 10 14
+  GetA 5
+  Inc 5
+  Add 2 5 10
+  Scope 9 --> 
+          SetReg 7 9
+          Mod 14 4 12
+          Sub 14 12 14
+          Sub 6 1 7
+          SetAns 14
+          GetA 11
+          Div 5 6 15
+
+Gen: 9657
+Mod 8 12 0
+While 11 14 --> 
+               Add 0 15 0
+               TestLess 4 3 5
+               Dec 11
+ Scope 1 --> 
+  GetA 2
+  Div 1 13 4
+  Mult 0 10 14
+  GetA 5
+  Inc 5
+  Add 2 5 10
+  Mod 14 4 12
+  Sub 14 12 14
+  Output 3 10
+  Output 12 10
+  SetAns 14
+  GetA 11
+  Div 5 6 15
+
+Gen: 9666
+Mod 8 12 0
+While 11 14 --> 
+               Add 0 15 0
+               TestLess 4 3 5
+               Dec 11
+ Scope 1 --> 
+  GetA 2
+  Div 1 13 4
+  Mult 0 10 14
+  GetA 5
+  Inc 5
+  Add 2 5 10
+  Mod 14 4 12
+  Sub 14 12 14
+  Output 12 10
+  SetAns 14
+  GetA 11
+  Div 5 6 15
+
+Gen: 9712
+Mod 8 12 0
+While 11 14 --> 
+               Add 0 15 0
+               Dec 5
+               Dec 11
+  Scope 2 --> 
+   GetA 2
+   Div 1 13 4
+   Mult 0 10 14
+   GetA 5
+   Inc 5
+   Add 2 5 10
+   Mod 14 4 12
+   Sub 14 12 14
+   SetAns 14
+   GetA 11
+   Div 5 6 15
+

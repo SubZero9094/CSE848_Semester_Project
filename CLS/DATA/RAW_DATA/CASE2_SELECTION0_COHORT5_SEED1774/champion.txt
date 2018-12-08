@@ -1,0 +1,198 @@
+Gen: 7809
+ScopeReg 10
+Mod 4 3 8
+GetA 10
+Inc 8
+Inc 12
+TestEqu 7 4 2
+SetReg 9 8
+Mult 8 10 1
+Sub 15 7 12
+If 5 15 --> 
+                TestLess 4 7 15
+                Add 4 8 8
+                Mod 7 10 0
+                Inc 1
+                Mult 1 15 2
+                Mult 11 1 15
+                Div 1 6 5
+                Mod 15 8 7
+                Mult 6 15 13
+                SetAns 12
+                Sub 13 0 6
+If 7 0 --> 
+ Not 4
+ Mult 5 10 11
+
+Gen: 7810
+ScopeReg 10
+Mod 4 3 8
+GetA 10
+Inc 8
+Inc 12
+SetReg 9 8
+Mult 8 10 1
+Sub 15 7 12
+If 5 15 --> 
+                TestLess 4 7 15
+                Add 4 8 8
+                Mod 7 10 0
+                Inc 1
+                Mult 1 15 2
+                Mult 11 1 15
+                Div 1 6 5
+                Mod 15 8 7
+                Mult 6 15 13
+                SetAns 12
+                Sub 13 0 6
+If 7 0 --> 
+ Not 4
+ Mult 5 10 11
+
+Gen: 7942
+If 9 13 --> 
+              Mod 4 3 8
+              GetA 10
+              SetReg 13 10
+              Inc 8
+              Mult 8 10 1
+              Sub 15 7 12
+              TestLess 15 7 15
+              Dec 9
+              Mod 7 10 0
+              Inc 1
+              Sub 8 11 14
+              Mult 11 1 15
+              Div 1 6 5
+              Mod 15 8 7
+              Mult 6 15 13
+              SetAns 12
+              Sub 13 0 6
+If 7 0 --> 
+ SetReg 2 4
+ Not 4
+ Mult 5 10 11
+
+Gen: 7946
+If 9 13 --> 
+              Mod 4 3 8
+              GetA 10
+              SetReg 13 10
+              Inc 8
+              Mult 8 10 1
+              Sub 15 7 12
+              TestLess 15 7 15
+              Dec 9
+              Mod 7 10 0
+              Inc 1
+              Mult 11 1 15
+              Div 1 6 5
+              Mod 15 8 7
+              Mult 6 15 13
+              SetAns 12
+              Sub 13 0 6
+If 7 0 --> 
+ SetReg 2 4
+ Not 4
+ Mult 5 10 11
+
+Gen: 7971
+If 9 13 --> 
+              Mod 2 3 8
+              GetA 10
+              SetReg 13 10
+              Mult 8 10 1
+              Sub 15 7 12
+              Dec 9
+              Mod 7 10 0
+              Inc 1
+              Mult 11 1 15
+              Div 1 6 5
+              Mod 15 8 7
+              Mult 6 15 13
+              Pop 0 4
+              SetAns 12
+              Mod 1 15 14
+              Sub 13 0 6
+If 14 0 --> 
+ SetReg 2 4
+ Mult 5 10 11
+
+Gen: 8001
+If 9 13 --> 
+              Mod 4 3 8
+              GetA 10
+              Inc 8
+              Mult 8 10 1
+              Sub 15 7 12
+              SetReg 3 2
+              Dec 9
+              Mod 7 10 0
+              Inc 1
+              Mult 11 1 15
+              Div 1 6 5
+              Mod 15 8 7
+              Mult 6 15 13
+              SetAns 12
+              Sub 13 0 6
+              Mult 0 10 0
+If 7 0 --> 
+ Mult 5 10 11
+
+Gen: 8024
+If 9 13 --> 
+              Mod 4 3 8
+              GetA 10
+              Inc 8
+              Mult 8 10 1
+              Sub 15 7 12
+              Dec 9
+              Mod 7 10 0
+              Inc 1
+              Mult 11 1 15
+              Div 1 6 5
+              Mod 15 8 7
+              Mult 6 15 13
+              Pop 14 4
+              SetAns 12
+              Sub 13 0 6
+              ScopeReg 14
+              Mult 5 10 11
+
+Gen: 8037
+If 9 13 --> 
+              Mod 4 3 8
+              GetA 10
+              Inc 8
+              Mult 8 10 1
+              Sub 15 7 12
+              Dec 9
+              Mod 7 10 0
+              Inc 1
+              Mult 11 1 15
+              Div 1 6 5
+              Mod 15 8 7
+              Mult 6 15 13
+              Pop 8 4
+              SetAns 12
+              Sub 13 0 6
+              Mult 5 10 11
+
+Gen: 9527
+If 9 0 --> 
+ TestLess 1 7 8
+ GetA 10
+ Inc 8
+ Mult 8 10 1
+ Sub 15 7 12
+ Dec 9
+ Mod 15 1 0
+ Inc 1
+ Mult 11 1 15
+ Div 1 6 5
+ Mod 15 8 7
+ Mult 6 15 13
+ SetAns 12
+ Sub 13 0 6
+ Mult 5 10 11
+

@@ -1,0 +1,141 @@
+Gen: 177
+GetA 5
+Output 0 1
+SetReg 13 2
+GetB 12
+SetReg 3 1
+GetB 4
+Inc 14
+TestLess 1 6 6
+SetAns 5
+Mult 10 8 1
+Scope 4 --> 
+     GetC 1
+     GetC 8
+     Output 14 2
+     SetAns 10
+     TestLess 4 1 2
+     Output 3 10
+     Mod 4 6 8
+     SetAns 4
+     Input 11 11
+     Input 6 11
+  If 6 2 --> 
+   Dec 9
+   SetAns 7
+   SetAns 5
+   TestLess 12 5 15
+   ScopeReg 1
+   Not 5
+Scope 0 --> 
+ GetC 13
+ SetAns 1
+ Mod 9 4 13
+ GetA 6
+ Countdown 15 14 --> 
+               GetA 6
+               Dec 10
+               Add 5 9 10
+       Countdown 2 7 --> 
+        GetC 10
+        GetB 8
+        Sub 9 15 11
+        Output 13 1
+        Countdown 9 11 --> 
+            TestEqu 8 5 5
+            GetA 10
+            GetA 12
+
+Gen: 178
+GetA 5
+Output 0 1
+SetReg 13 2
+GetB 12
+SetReg 3 1
+GetB 4
+Inc 14
+TestLess 1 6 6
+SetAns 5
+Mult 10 8 1
+Scope 4 --> 
+     GetC 1
+     GetC 8
+     Output 14 2
+     SetAns 10
+     TestLess 4 1 2
+     Output 3 10
+     Mod 4 6 8
+     SetAns 4
+     Input 11 11
+     Input 6 11
+  If 6 2 --> 
+   Dec 9
+   SetAns 7
+   SetAns 5
+   TestLess 12 5 15
+   ScopeReg 1
+   Not 5
+Scope 0 --> 
+ GetC 13
+ SetAns 1
+ Mod 9 4 13
+ GetA 6
+ Countdown 15 14 --> 
+               GetA 6
+               Dec 10
+               Add 5 9 10
+       Countdown 2 7 --> 
+        GetC 10
+        GetB 8
+        Sub 9 15 11
+        Output 13 1
+        TestEqu 8 5 5
+        GetA 10
+        GetA 12
+
+Gen: 189
+GetA 5
+Output 0 5
+SetReg 13 2
+Div 8 3 8
+GetB 12
+SetReg 3 1
+Break 0
+GetB 4
+Inc 14
+TestLess 1 6 6
+SetAns 13
+Mult 5 8 1
+Scope 4 --> 
+     GetC 1
+     Output 14 2
+     SetAns 10
+     TestLess 4 1 2
+     Output 3 10
+     Mod 4 0 8
+     SetAns 4
+     Input 10 7
+     Input 6 11
+     If 6 10 --> 
+           Dec 9
+           SetAns 5
+           TestLess 12 5 15
+           ScopeReg 1
+Scope 0 --> 
+ GetC 13
+ Add 12 14 10
+ SetAns 1
+ Mod 8 4 13
+ GetA 6
+ Countdown 15 14 --> 
+               GetA 6
+               Dec 10
+               Add 5 9 10
+       Countdown 2 7 --> 
+        GetC 10
+        GetB 8
+        Output 13 1
+        TestEqu 8 5 5
+        GetA 10
+        GetA 12
+

@@ -1,0 +1,92 @@
+Gen: 248
+Scope 7 --> 
+        Call 7
+        Dec 11
+        Scope 11 --> 
+            GetC 4
+            Inc 12
+            Dec 6
+            Not 5
+            Add 12 14 3
+            GetB 3
+            Mod 12 5 8
+            TestLess 4 12 2
+            Add 3 2 4
+            If 0 15 --> 
+                TestLess 2 5 5
+                CopyVal 5 2
+            Scope 12 --> 
+             GetA 6
+             GetC 5
+             Mult 1 9 4
+             GetB 11
+             SetAns 11
+             Mod 5 1 0
+             SetAns 14
+             GetA 12
+             Mult 6 9 5
+             Add 13 3 6
+             SetAns 3
+             GetA 10
+             TestLess 12 11 5
+             Inc 15
+             SetAns 10
+             Mod 4 7 2
+             Not 7
+             If 2 14 --> 
+               Push 10 10
+               GetC 14
+               Mult 1 10 6
+               Call 15
+               Not 2
+               TestLess 3 14 0
+       If 5 7 --> 
+        GetA 11
+        Sub 6 5 12
+
+Gen: 287
+Call 5
+Call 7
+Dec 9
+Scope 11 --> 
+            Inc 12
+            Dec 6
+            Not 5
+            Push 3 15
+            Add 1 14 6
+            GetB 3
+            Mod 12 5 8
+            TestLess 4 12 2
+            Add 3 2 12
+            If 0 15 --> 
+                TestLess 2 5 5
+                CopyVal 5 2
+            Scope 12 --> 
+             GetA 6
+   While 13 3 --> 
+    Mult 4 2 9
+    GetB 11
+    SetAns 11
+    Mod 5 1 0
+    SetAns 14
+    GetA 12
+    Dec 7
+    Add 13 9 6
+    SetAns 3
+    GetA 10
+    TestLess 12 11 5
+    Inc 15
+    SetAns 10
+    Div 7 7 11
+    GetC 4
+    Not 8
+    If 2 7 --> 
+        GetC 14
+        Mult 1 6 6
+        CopyVal 0 9
+        Mod 0 4 2
+        TestLess 3 14 0
+        ----
+        If 5 7
+        Sub 6 5 9
+

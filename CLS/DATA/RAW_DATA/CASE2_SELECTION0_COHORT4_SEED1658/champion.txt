@@ -1,0 +1,276 @@
+Gen: 3648
+Dec 0
+GetA 13
+Mult 15 11 12
+Mult 12 10 2
+Add 9 13 5
+Add 14 4 0
+Mult 3 7 6
+If 3 1 --> 
+  SetReg 9 7
+  SetAns 2
+  Add 5 8 3
+  Div 14 13 14
+  GetA 2
+  Add 3 7 15
+  Dec 9
+  Not 7
+  Output 7 1
+  Div 3 9 11
+  Dec 4
+  Dec 2
+  TestLess 10 1 13
+  Add 3 3 10
+  TestNEqu 2 8 1
+If 4 0 --> 
+ Inc 10
+ Mod 10 11 7
+ Mult 14 7 8
+ Call 0
+ Break 7
+ Mult 10 11 2
+ SetAns 1
+ Countdown 6 7 --> 
+        Call 14
+        Mult 15 2 1
+        Input 13 9
+        Mod 1 13 3
+        SetReg 5 7
+        TestLess 2 7 8
+
+Gen: 3653
+Dec 0
+GetA 13
+Mult 15 11 12
+Mult 12 10 2
+Add 9 13 5
+Mult 3 7 6
+If 3 1 --> 
+  SetReg 9 7
+  SetAns 2
+  Add 5 8 3
+  Div 14 13 14
+  GetA 2
+  Add 3 7 15
+  Dec 9
+  Not 7
+  Scope 5 --> 
+      Div 3 9 11
+      Dec 4
+      Dec 2
+      TestLess 10 1 13
+      Add 3 3 10
+      TestNEqu 2 8 1
+If 4 0 --> 
+ Inc 10
+ Mod 10 11 7
+ Mult 14 7 8
+ Call 0
+ Break 7
+ Mult 10 11 2
+ SetAns 1
+ Countdown 6 7 --> 
+        Mult 15 2 1
+        Input 13 9
+        Mod 1 13 3
+        SetReg 5 7
+        TestLess 2 7 8
+
+Gen: 3661
+Dec 0
+GetA 13
+Mult 15 11 12
+Mult 12 10 2
+Add 9 13 5
+Mult 3 7 6
+If 3 1 --> 
+  SetReg 9 7
+  SetAns 2
+  Add 5 8 3
+  Div 14 13 14
+  GetA 2
+  Add 3 7 15
+  Dec 9
+  Not 7
+  Scope 5 --> 
+      Div 3 9 11
+      Dec 4
+      Dec 2
+      TestLess 10 1 13
+      Add 3 3 10
+      TestNEqu 2 8 1
+If 4 0 --> 
+ Inc 10
+ Mod 10 11 7
+ Mult 14 7 8
+ Call 0
+ Break 7
+ Mult 10 11 2
+ SetAns 1
+ Countdown 6 7 --> 
+        Mult 15 2 1
+        Input 1 9
+        Mod 1 13 3
+        TestLess 2 7 8
+
+Gen: 3723
+GetA 13
+Mult 15 11 12
+CopyVal 3 0
+Mult 12 10 2
+Add 9 13 5
+Mult 3 7 6
+If 3 1 --> 
+  SetReg 9 7
+  SetAns 2
+  Add 5 8 3
+  Div 14 13 14
+  Add 5 7 15
+  Dec 9
+  Not 7
+  Div 3 9 11
+  Dec 4
+  TestLess 10 1 13
+  Add 3 3 10
+  TestNEqu 12 6 1
+If 4 0 --> 
+ Inc 10
+ CopyVal 5 12
+ Mod 10 11 7
+ Mult 14 7 8
+ Push 8 11
+ Break 7
+ Mult 10 11 2
+ SetAns 1
+ Countdown 6 7 --> 
+        Mult 15 2 1
+        Input 7 9
+        Mod 1 13 3
+        TestLess 11 7 8
+
+Gen: 4044
+GetA 13
+Mult 15 11 12
+Mult 12 10 2
+Add 9 13 5
+Mult 3 7 6
+If 3 10 --> 
+           SetReg 9 7
+           SetAns 2
+           Add 5 8 3
+           Add 3 7 15
+           Dec 9
+      If 9 6 --> 
+       Not 7
+       GetA 2
+       Div 3 9 11
+       Dec 4
+       TestLess 13 1 13
+       Add 3 3 10
+       TestNEqu 2 12 1
+ If 4 1 --> 
+  Inc 10
+  Mod 10 11 7
+  Mult 4 7 8
+  Mult 10 11 2
+  SetAns 1
+  Countdown 6 15 --> 
+                Mult 15 2 1
+                Push 3 11
+                Input 6 9
+                Sub 7 7 8
+                Mod 1 13 3
+
+Gen: 4225
+GetA 13
+Mult 15 11 12
+Mult 12 10 2
+Add 9 13 5
+Push 11 13
+SetAns 1
+Mult 3 7 6
+If 3 15 --> 
+                SetReg 9 7
+                SetAns 2
+                Add 5 8 3
+                Add 3 7 15
+                Dec 9
+                TestLess 3 15 11
+                Not 7
+                Div 3 9 11
+                Dec 4
+                TestLess 12 1 13
+                Add 3 3 10
+                TestNEqu 6 13 1
+ If 4 1 --> 
+  Inc 10
+  Mod 10 11 7
+  Mult 4 7 8
+  Mult 10 11 2
+  Countdown 6 13 --> 
+              Mult 15 2 1
+              Input 3 9
+              Sub 7 7 8
+              Mod 1 13 3
+
+Gen: 4374
+GetA 13
+Mult 15 11 12
+Mult 12 10 2
+Add 9 13 5
+SetAns 1
+Mult 3 7 6
+If 3 1 --> 
+  SetReg 9 7
+  SetAns 2
+  Add 5 8 3
+  Add 13 7 15
+  Dec 9
+  Not 7
+  Div 3 9 11
+  Sub 9 5 5
+  Dec 4
+  TestLess 12 1 13
+  Add 3 3 10
+  TestNEqu 14 13 1
+  If 4 12 --> 
+             Inc 10
+             Mod 10 11 7
+             Mult 4 7 8
+             Mult 10 11 2
+             Countdown 6 15 --> 
+                Mult 15 2 1
+                Input 13 9
+                Sub 7 7 8
+                Mod 1 13 3
+
+Gen: 4810
+GetA 13
+Mult 15 11 12
+Mult 12 10 2
+Add 9 13 5
+SetAns 1
+Mult 2 7 6
+If 3 5 --> 
+      SetReg 9 7
+      SetAns 2
+      Add 5 8 3
+      Add 5 7 15
+      Dec 9
+      Not 7
+      Div 3 9 11
+      Dec 4
+      TestLess 13 1 13
+      Add 3 3 10
+      TestNEqu 4 3 1
+      If 4 10 --> 
+           Inc 10
+           Mod 10 11 7
+           Mult 4 7 8
+           Mult 10 11 2
+           Countdown 6 14 --> 
+               Mult 15 2 1
+               Input 2 9
+               Sub 7 7 8
+               Mod 1 13 3
+

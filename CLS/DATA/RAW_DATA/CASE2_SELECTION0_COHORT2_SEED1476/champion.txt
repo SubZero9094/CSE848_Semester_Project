@@ -1,0 +1,429 @@
+Gen: 9791
+GetA 11
+Mult 6 9 15
+Inc 13
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       Pop 3 14
+       Add 10 1 5
+       TestLess 3 8 12
+       Sub 1 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           TestEqu 3 7 1
+           Inc 0
+           ----
+           If 8 10
+           Dec 3
+           ScopeReg 5
+           Div 6 14 6
+           Inc 7
+           GetA 2
+           Push 11 5
+           Mult 11 4 1
+           CopyVal 12 3
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+           SetAns 9
+If 1 0 --> 
+ Mult 10 0 9
+ SetAns 9
+ Scope 3 --> 
+    Sub 10 7 4
+    Sub 4 6 4
+
+Gen: 9792
+GetA 11
+Mult 6 9 15
+Inc 13
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       Pop 3 14
+       Add 10 1 5
+       TestLess 3 8 12
+       Sub 1 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           TestEqu 3 7 1
+           Inc 0
+           ----
+           If 8 10
+           Dec 13
+           ScopeReg 5
+           Div 6 14 6
+           GetA 2
+           Push 11 5
+           Mult 11 4 1
+           CopyVal 12 3
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+           SetAns 9
+If 1 0 --> 
+ Mult 10 0 9
+ SetAns 9
+ Scope 3 --> 
+    Sub 10 7 4
+    Sub 4 6 4
+
+Gen: 9793
+GetA 11
+Mult 6 9 15
+Inc 13
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       Pop 3 14
+       Add 10 1 5
+       TestLess 3 8 12
+       Sub 12 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           TestEqu 3 7 1
+           ----
+           If 8 10
+           Dec 3
+           Div 6 14 6
+           Call 10
+           GetA 2
+           Push 11 5
+           Mult 11 4 1
+           CopyVal 12 3
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+           SetAns 9
+    If 1 4 --> 
+     Mult 10 0 9
+     SetAns 9
+   Scope 3 --> 
+    Sub 10 7 4
+    Sub 4 6 4
+
+Gen: 9796
+GetA 11
+Mult 6 9 15
+Inc 13
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       TestLess 3 8 12
+       Sub 1 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           TestEqu 1 7 1
+           Inc 0
+           ----
+           If 8 10
+           Dec 3
+           ScopeReg 5
+           Div 6 14 6
+           Inc 7
+           GetA 2
+           Mult 11 4 1
+           CopyVal 12 3
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+           SetAns 9
+If 1 0 --> 
+ Mult 10 0 9
+ SetAns 9
+ Scope 3 --> 
+    Sub 10 7 4
+    Sub 4 6 4
+
+Gen: 9802
+GetA 11
+Mult 6 9 15
+Inc 13
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       TestLess 3 8 12
+       Sub 1 4 6
+       Call 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           Inc 0
+           ----
+           If 8 10
+           ScopeReg 5
+           Div 6 14 6
+           Inc 7
+           GetA 2
+           Push 11 5
+           Mult 11 4 1
+           CopyVal 12 3
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+           SetAns 9
+If 1 0 --> 
+ Mult 10 0 9
+ Scope 3 --> 
+    Sub 10 7 4
+    Sub 4 6 4
+
+Gen: 9804
+GetA 11
+Mult 6 9 15
+Inc 13
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       Pop 3 14
+       TestLess 3 8 12
+       Sub 1 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           Inc 0
+           ----
+           If 8 10
+           Dec 3
+           Div 6 14 6
+           Inc 7
+           GetA 2
+           Push 11 5
+           Mult 11 4 1
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+If 1 0 --> 
+ Mult 10 0 9
+ SetAns 9
+ Scope 3 --> 
+    Sub 10 7 4
+    Sub 4 6 4
+
+Gen: 9805
+GetA 11
+Mult 6 9 15
+Inc 13
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       TestLess 3 8 12
+       Sub 1 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           Inc 0
+           ----
+           If 8 10
+           ScopeReg 5
+           Div 6 14 6
+           Inc 7
+           GetA 2
+           Push 11 5
+           Mult 11 5 1
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+           SetAns 9
+If 1 0 --> 
+ Mult 10 0 9
+ Scope 3 --> 
+    Sub 10 7 4
+    Sub 4 6 4
+
+Gen: 9842
+GetA 11
+Mult 6 9 15
+Break 4
+Div 7 3 10
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       TestLess 3 8 12
+       Sub 1 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           Inc 0
+           ----
+           If 11 10
+           Div 6 14 6
+           GetA 2
+           Push 11 5
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+If 1 0 --> 
+ Mult 10 0 9
+ Div 13 12 13
+ Scope 3 --> 
+    Sub 10 7 4
+    Break 10
+    Sub 4 6 4
+
+Gen: 9846
+GetA 11
+Mult 6 9 15
+Break 4
+Div 7 3 10
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       TestLess 3 8 12
+       Sub 1 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           Inc 0
+           ----
+           If 11 10
+           Div 6 14 6
+           GetA 2
+           Push 11 5
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+If 1 0 --> 
+ Mult 10 0 9
+ Div 13 12 13
+ Sub 10 7 4
+ Break 10
+ Sub 4 6 4
+
+Gen: 9853
+GetA 11
+Mult 6 9 15
+Break 0
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       TestLess 3 8 12
+       Add 15 12 12
+       Sub 1 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           Inc 0
+           ----
+           If 11 10
+           Div 6 14 6
+           GetA 2
+           Push 11 5
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+If 1 0 --> 
+ Mult 10 0 9
+ Sub 10 7 4
+ Break 10
+ Sub 4 6 4
+
+Gen: 9866
+GetA 11
+Mult 6 9 15
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       TestLess 4 8 12
+       Call 15
+       Sub 1 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           Inc 0
+           ----
+           If 11 10
+           Div 6 14 6
+           GetA 2
+           Push 11 5
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+If 3 0 --> 
+ Mult 10 0 9
+ Sub 10 7 4
+ Break 10
+ Sub 4 6 4
+
+Gen: 9873
+GetA 11
+Mult 6 9 15
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       TestLess 4 13 12
+       Call 15
+       Sub 12 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           ----
+           If 11 10
+           Div 6 14 6
+           GetA 2
+           Push 11 5
+           Mult 2 6 0
+           Add 10 9 6
+           Add 12 11 10
+      If 3 6 --> 
+       Mult 10 0 9
+       Sub 10 7 4
+       Break 10
+       Sub 4 6 4
+
+Gen: 9874
+GetA 11
+Mult 6 9 15
+Div 7 3 10
+Mult 14 11 7
+Mult 0 0 14
+Div 0 12 10
+Add 0 2 0
+If 14 6 --> 
+       TestLess 4 8 12
+       Call 15
+       Sub 1 4 6
+       SetReg 14 7
+       While 7 10 --> 
+           SetAns 15
+           ----
+           If 11 10
+           Div 6 14 6
+           Push 11 1
+           Mult 11 6 0
+           Add 10 9 6
+           Add 12 11 10
+If 3 0 --> 
+ Mult 10 0 9
+ Sub 10 7 4
+ Sub 4 6 4
+

@@ -1,0 +1,135 @@
+Gen: 5260
+GetA 13
+Div 6 12 6
+Dec 2
+SetAns 6
+Push 6 7
+Countdown 4 5 --> 
+      Add 13 1 9
+      GetA 1
+      Countdown 2 8 --> 
+         Pop 14 15
+         ScopeReg 3
+         Output 14 9
+         Inc 13
+         Div 9 6 15
+While 5 0 --> 
+ Mult 9 13 8
+ Mult 8 15 6
+
+Gen: 5261
+GetA 13
+Div 6 12 6
+Dec 2
+SetAns 6
+Push 6 7
+Countdown 4 5 --> 
+      Add 13 1 9
+      GetA 1
+      Countdown 2 8 --> 
+         Pop 14 15
+         ScopeReg 12
+         Inc 13
+         Div 9 6 15
+While 5 0 --> 
+ Mult 9 13 8
+ Mult 8 15 6
+
+Gen: 5262
+GetA 13
+Div 6 12 6
+Dec 2
+SetAns 6
+Push 6 7
+Countdown 4 5 --> 
+      Add 13 1 9
+      GetA 1
+      Countdown 2 8 --> 
+         ScopeReg 12
+         Inc 13
+         Div 9 6 15
+While 5 0 --> 
+ Mult 9 13 8
+ Mult 8 15 6
+
+Gen: 5272
+GetA 13
+Div 6 12 6
+Dec 2
+SetAns 6
+Countdown 4 5 --> 
+      Add 13 1 9
+      GetA 1
+      Countdown 2 8 --> 
+         ScopeReg 3
+         Inc 13
+         Div 9 6 15
+While 5 0 --> 
+ Mult 9 13 8
+ Mult 8 15 6
+
+Gen: 5282
+GetA 13
+Div 6 12 6
+Dec 2
+SetAns 6
+Countdown 4 5 --> 
+      Add 13 1 9
+      GetA 1
+      Countdown 2 8 --> 
+         Inc 13
+         Div 9 6 15
+While 5 0 --> 
+ Mult 9 13 8
+ Mult 8 15 6
+
+Gen: 5939
+GetA 13
+Div 6 12 6
+SetAns 6
+Add 13 1 9
+GetA 1
+Countdown 2 7 --> 
+        Div 9 6 15
+While 13 0 --> 
+ Mult 9 13 8
+ Sub 4 4 10
+ Inc 1
+ Mult 8 15 6
+
+Gen: 5983
+GetA 13
+Div 6 12 6
+SetAns 6
+Add 13 1 9
+GetA 1
+Countdown 2 15 --> 
+                Div 9 6 15
+   If 6 3 --> 
+    Mult 9 13 8
+    Inc 1
+    Mult 8 15 6
+
+Gen: 7976
+GetA 13
+Div 6 12 6
+SetAns 6
+Add 13 1 9
+GetA 1
+Output 14 12
+Mult 9 13 8
+Inc 1
+Inc 9
+Mult 8 9 6
+
+Gen: 7988
+GetA 13
+Div 6 12 6
+SetAns 6
+Add 13 1 9
+GetA 1
+Mult 9 13 8
+Inc 1
+Inc 9
+Mult 8 9 6
+

@@ -1,0 +1,174 @@
+Gen: 121
+SetAns 2
+Dec 5
+SetAns 3
+GetA 6
+GetC 3
+Countdown 15 2 --> 
+   Call 12
+   Inc 4
+   GetC 15
+   Output 4 7
+   Add 1 10 1
+   TestLess 10 14 8
+   SetAns 6
+   SetReg 13 5
+   GetB 13
+   GetB 3
+   Mult 7 14 4
+   Push 1 9
+   Scope 6 --> 
+       SetReg 15 10
+       Pop 12 14
+       SetReg 1 10
+       SetAns 6
+       TestLess 2 10 15
+       GetB 10
+       Add 15 7 6
+       Sub 6 2 5
+       Pop 10 7
+       Div 15 2 5
+       Add 4 8 11
+       GetC 2
+       GetA 12
+       Countdown 8 10 --> 
+           SetAns 2
+           GetA 9
+  If 5 2 --> 
+   Inc 5
+   TestNEqu 0 2 0
+   TestLess 2 12 15
+   GetA 14
+   Sub 3 14 6
+   Mult 11 6 12
+   Add 3 15 8
+
+Gen: 200
+SetAns 2
+Dec 5
+Break 4
+SetAns 3
+Div 0 2 4
+GetA 6
+GetC 3
+Countdown 15 2 --> 
+   Call 12
+   Inc 7
+   GetC 15
+   Output 9 12
+   Inc 12
+   TestLess 10 14 8
+   SetAns 6
+   SetReg 13 4
+   GetB 15
+   GetB 3
+   Mult 7 14 4
+   Define 3 11 --> 
+       Scope 7 --> 
+        SetReg 1 3
+        SetReg 1 3
+        TestLess 2 10 15
+        GetB 10
+        Add 15 2 6
+        Sub 6 2 5
+        Div 15 2 5
+        Add 4 8 11
+        GetC 2
+        GetA 12
+        Countdown 8 10 --> 
+           SetAns 2
+           Mod 13 1 9
+           GetA 6
+  If 5 2 --> 
+   Inc 5
+   TestNEqu 14 11 14
+   TestLess 2 12 15
+   GetA 14
+   Sub 3 14 6
+   Mult 11 6 12
+
+Gen: 3264
+Inc 5
+GetB 0
+Mod 10 3 12
+TestLess 7 2 3
+SetReg 5 15
+SetAns 10
+Div 9 15 4
+SetReg 3 15
+Mult 9 5 12
+Div 12 13 0
+Call 7
+Push 5 14
+Countdown 15 0 --> 
+ Push 0 0
+ Dec 6
+ TestLess 10 14 8
+ Break 12
+ Dec 4
+ SetAns 5
+ SetAns 14
+ TestLess 2 10 5
+ Inc 9
+ GetA 12
+ GetC 11
+ GetB 10
+ Countdown 8 2 --> 
+   GetA 15
+   GetC 2
+   Output 2 4
+   GetA 0
+   Pop 3 15
+   Dec 1
+   If 13 9 --> 
+If 5 0 --> 
+ SetAns 2
+ Push 10 4
+ GetB 7
+ Inc 6
+ GetA 7
+ TestLess 2 12 15
+ GetA 14
+
+Gen: 3265
+Inc 5
+GetB 0
+Mod 10 3 12
+TestLess 7 2 3
+SetReg 5 15
+SetAns 10
+Div 9 15 4
+SetReg 3 15
+Mult 9 5 12
+Call 7
+Push 5 14
+Countdown 15 0 --> 
+ Push 0 0
+ Dec 6
+ TestLess 10 14 8
+ Break 12
+ Dec 4
+ SetAns 5
+ SetAns 14
+ TestLess 2 10 5
+ Inc 9
+ GetA 12
+ GetC 11
+ GetB 10
+ Countdown 8 2 --> 
+   GetA 15
+   GetC 2
+   Output 2 4
+   GetA 0
+   Pop 3 15
+   Dec 1
+   If 13 9 --> 
+If 5 0 --> 
+ SetAns 2
+ Push 10 4
+ GetB 7
+ Inc 6
+ GetA 7
+ TestLess 2 12 15
+ GetA 14
+

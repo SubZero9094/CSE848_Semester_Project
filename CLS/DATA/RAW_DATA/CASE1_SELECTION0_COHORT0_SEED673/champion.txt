@@ -1,0 +1,164 @@
+Gen: 811
+GetA 2
+GetB 14
+Countdown 5 2 --> 
+   TestNEqu 15 5 7
+   Inc 2
+   ----
+   If 3 2
+   SetAns 13
+   Mod 9 10 13
+   Push 9 9
+   Add 2 14 13
+   ScopeReg 1
+   GetA 6
+If 3 0 --> 
+ Input 2 7
+ Define 5 4 --> 
+     GetB 9
+     Add 11 2 12
+
+Gen: 812
+GetA 2
+GetB 14
+Countdown 5 2 --> 
+   TestNEqu 15 5 7
+   ----
+   If 3 2
+   SetAns 13
+   Mod 9 10 13
+   Push 9 9
+   Add 2 14 13
+   GetA 6
+If 3 0 --> 
+ Input 2 7
+ Define 5 4 --> 
+     GetB 9
+     Add 11 2 12
+
+Gen: 814
+GetA 2
+GetB 14
+Countdown 5 2 --> 
+   TestNEqu 15 5 7
+   ----
+   If 3 2
+   SetAns 13
+   Mod 9 10 13
+   Push 9 9
+   Add 2 14 13
+   GetA 6
+If 3 0 --> 
+ Input 2 7
+ Define 5 4 --> 
+     GetB 9
+
+Gen: 819
+GetA 2
+GetB 14
+Countdown 5 2 --> 
+   Inc 2
+   ----
+   If 3 2
+   SetAns 13
+   Push 9 9
+   Add 2 14 13
+   ScopeReg 1
+   GetA 6
+   GetB 9
+   Dec 14
+   Add 11 2 12
+
+Gen: 823
+GetA 2
+GetB 14
+Countdown 5 2 --> 
+   Inc 2
+   ----
+   Scope 2
+   SetAns 13
+   Push 9 9
+   Add 2 14 13
+   ScopeReg 1
+   GetA 6
+   Input 2 7
+   GetB 9
+
+Gen: 824
+GetA 2
+GetB 14
+Countdown 5 2 --> 
+   TestNEqu 15 5 7
+   ----
+   If 3 2
+   SetAns 13
+   Mod 9 10 13
+   Add 2 14 13
+   ScopeReg 1
+   GetA 6
+   Input 2 7
+
+Gen: 828
+GetA 2
+GetB 14
+Countdown 5 2 --> 
+   ----
+   If 3 2
+   SetAns 13
+   Push 9 9
+   Add 2 14 13
+   GetA 6
+   SetReg 14 2
+   Define 5 4 --> 
+
+Gen: 848
+GetA 2
+GetB 14
+Add 7 10 4
+If 3 2 --> 
+   SetAns 13
+   Push 9 9
+   Add 2 14 13
+   Div 9 0 10
+   Add 11 2 12
+
+Gen: 855
+GetA 2
+GetB 14
+Add 7 10 4
+If 3 2 --> 
+   SetAns 13
+   Push 9 9
+   Add 2 14 13
+   Div 9 0 10
+
+Gen: 891
+Inc 0
+GetA 2
+GetB 7
+SetAns 13
+Add 2 7 13
+GetA 6
+Define 5 12 --> 
+
+Gen: 917
+GetB 14
+Countdown 3 0 --> 
+ SetAns 13
+ Add 2 14 13
+ GetA 2
+ Inc 11
+
+Gen: 945
+GetA 2
+GetB 7
+SetAns 13
+Add 2 7 13
+Define 5 12 --> 
+
+Gen: 981
+GetA 2
+GetB 7
+SetAns 13
+Add 2 7 13
+

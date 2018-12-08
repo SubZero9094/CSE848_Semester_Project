@@ -1,0 +1,82 @@
+Gen: 4909
+Add 8 8 5
+Div 15 4 0
+Mod 13 15 2
+Add 4 2 7
+Add 0 2 11
+ScopeReg 12
+SetAns 10
+Div 11 10 10
+Push 7 13
+GetA 14
+Countdown 9 0 --> 
+ Mult 15 7 2
+ CopyVal 14 8
+ Add 10 7 13
+ CopyVal 10 4
+ Inc 5
+ Div 5 12 0
+ Mult 5 8 12
+ Add 12 14 15
+ Mult 15 0 10
+
+Gen: 4910
+Add 8 8 5
+Div 15 4 0
+Mod 13 15 2
+Add 4 2 7
+Add 0 2 11
+ScopeReg 12
+SetAns 10
+Div 11 10 10
+GetA 14
+Countdown 9 0 --> 
+ Mult 15 7 2
+ CopyVal 14 8
+ Add 10 7 13
+ CopyVal 10 4
+ Inc 5
+ Div 5 12 0
+ Mult 5 8 12
+ Add 12 14 15
+ Mult 15 0 10
+
+Gen: 5321
+Add 8 8 5
+Div 15 4 0
+Mod 13 15 2
+Add 4 2 7
+Add 0 2 11
+SetAns 10
+Div 11 10 10
+GetA 14
+Countdown 9 1 --> 
+  ScopeReg 12
+  CopyVal 14 8
+  Add 10 7 13
+  CopyVal 10 4
+  Inc 5
+  Div 5 12 0
+  Mult 5 8 12
+  Add 12 14 15
+  Mult 15 0 10
+
+Gen: 7188
+Add 8 8 5
+Div 15 4 0
+Mod 13 15 2
+Add 4 13 7
+Add 0 2 11
+SetAns 10
+Div 11 10 10
+Countdown 9 8 --> 
+         ScopeReg 12
+         Add 10 7 13
+         CopyVal 10 4
+         Inc 5
+         Div 5 12 0
+         GetA 8
+         Mult 5 8 12
+         Add 12 8 15
+         Mult 15 0 10
+

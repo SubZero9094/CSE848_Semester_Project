@@ -1,0 +1,136 @@
+Gen: 8383
+Mult 3 2 3
+SetReg 10 14
+Add 13 14 2
+Dec 7
+Not 9
+Countdown 14 5 --> 
+      Add 8 9 9
+      Break 11
+    Scope 4 --> 
+     CopyVal 12 14
+     Div 3 6 3
+     GetA 8
+     TestLess 11 12 12
+     Sub 9 11 11
+     TestLess 9 8 1
+     Mult 2 3 13
+     Div 2 14 14
+     Div 12 12 14
+     SetAns 13
+     GetA 13
+     GetA 3
+
+Gen: 8601
+Mult 13 2 3
+SetReg 10 10
+Add 0 14 2
+Not 9
+Countdown 14 5 --> 
+      Add 4 9 9
+      Countdown 5 9 --> 
+ While 7 1 --> 
+  CopyVal 12 14
+  Div 3 6 3
+  GetA 0
+  TestLess 11 12 12
+  Sub 9 7 11
+  Scope 5 --> 
+      Mult 2 3 13
+      GetA 3
+      Div 2 1 14
+      Div 12 12 14
+      SetAns 13
+      GetA 13
+
+Gen: 8685
+Mult 13 2 3
+SetReg 6 6
+Add 13 14 2
+Not 9
+Countdown 14 3 --> 
+    TestNEqu 5 10 5
+    Scope 9 --> 
+          CopyVal 12 14
+          Div 3 6 3
+          TestLess 11 12 12
+          Sub 9 11 11
+          TestLess 14 10 4
+          Mult 2 3 13
+          Div 2 14 14
+          Div 12 12 14
+          SetAns 13
+          GetA 13
+          Mod 3 14 9
+
+Gen: 8694
+Mult 13 2 3
+SetReg 6 6
+Add 13 14 2
+Not 9
+Countdown 14 3 --> 
+    Scope 9 --> 
+          CopyVal 12 14
+          Div 3 6 3
+          TestLess 11 12 12
+          Sub 9 11 11
+          TestLess 14 10 4
+          Mult 2 3 13
+          Div 2 14 14
+          Div 12 12 14
+          SetAns 13
+          GetA 13
+          Mod 3 14 9
+
+Gen: 8709
+Mult 13 2 3
+Scope 3 --> 
+    Add 13 14 2
+    Not 9
+    ----
+    Countdown 14 3
+    CopyVal 12 14
+    Div 3 6 3
+    TestLess 11 12 12
+    Sub 9 11 11
+    TestLess 14 10 4
+    Mult 2 3 13
+    Div 2 14 14
+    Div 12 12 14
+    SetAns 13
+    GetA 13
+    Mod 3 14 9
+
+Gen: 8723
+Mult 13 2 3
+Add 13 14 2
+Not 9
+Countdown 14 8 --> 
+         Call 13
+         CopyVal 12 14
+         Div 3 6 3
+         TestLess 11 12 12
+         Sub 9 11 11
+         Mult 2 3 13
+         Div 2 14 14
+         Div 12 12 14
+         SetAns 13
+         GetA 13
+         Mod 3 14 9
+
+Gen: 8754
+Mult 13 2 3
+Add 13 14 2
+Not 9
+Countdown 14 6 --> 
+       CopyVal 12 14
+       Div 3 6 3
+       Sub 9 11 11
+       TestLess 14 11 12
+       Mult 2 3 13
+       Div 2 14 14
+       Div 12 12 14
+       SetAns 13
+       GetA 13
+       Mod 3 9 9
+

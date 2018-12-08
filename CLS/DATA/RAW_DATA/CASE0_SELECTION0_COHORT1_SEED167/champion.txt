@@ -1,0 +1,294 @@
+Gen: 216
+SetReg 2 1
+Call 1
+Call 8
+Call 9
+CopyVal 12 8
+CopyVal 8 12
+Pop 13 11
+TestLess 5 12 11
+SetReg 10 14
+SetReg 10 2
+CopyVal 8 12
+GetC 5
+GetB 3
+Call 0
+GetB 14
+Define 5 8 --> 
+         Pop 8 14
+         Call 12
+    Countdown 7 4 --> 
+     TestEqu 4 13 7
+     CopyVal 14 2
+     GetA 15
+     Sub 12 12 1
+     Output 6 13
+     TestEqu 13 7 13
+     SetAns 8
+     Div 3 1 8
+     GetC 14
+     Not 10
+     Inc 13
+     GetB 8
+     Pop 10 6
+     Sub 4 9 12
+     Break 14
+While 11 0 --> 
+ Sub 11 5 9
+ TestLess 8 14 7
+ SetAns 14
+ Output 9 11
+ Output 15 14
+ Sub 8 15 4
+ Mod 11 12 2
+ CopyVal 15 12
+
+Gen: 217
+SetReg 2 1
+Call 1
+Call 8
+Call 9
+CopyVal 12 8
+CopyVal 8 12
+Pop 13 11
+TestLess 5 12 11
+SetReg 10 14
+SetReg 10 2
+GetC 5
+GetB 3
+Call 0
+GetB 14
+Define 5 8 --> 
+         Pop 8 14
+         Call 12
+    Countdown 7 4 --> 
+     TestEqu 4 13 7
+     CopyVal 14 2
+     GetA 15
+     Sub 12 12 1
+     Output 6 13
+     TestEqu 13 7 13
+     SetAns 8
+     Div 3 1 8
+     GetC 14
+     Not 10
+     Inc 13
+     GetB 8
+     Pop 10 6
+     Sub 4 9 12
+     Break 14
+While 11 0 --> 
+ Sub 11 5 9
+ TestLess 8 14 7
+ SetAns 14
+ Output 9 11
+ Output 15 14
+ Sub 8 15 4
+ Mod 11 12 2
+ CopyVal 15 12
+
+Gen: 218
+SetReg 2 1
+Call 1
+Call 8
+Call 9
+CopyVal 12 8
+CopyVal 8 12
+Pop 13 11
+TestLess 5 12 11
+SetReg 10 14
+SetReg 10 2
+CopyVal 8 12
+GetC 5
+GetB 3
+Call 0
+GetB 14
+Define 5 8 --> 
+         Pop 8 14
+         Call 12
+    Countdown 7 4 --> 
+     TestEqu 4 13 7
+     CopyVal 14 2
+     GetA 15
+     Sub 12 12 1
+     Output 6 13
+     TestEqu 13 7 13
+     SetAns 8
+     Div 3 1 8
+     GetC 14
+     Inc 4
+     GetB 8
+     Pop 10 6
+     Sub 4 9 12
+     Break 14
+While 11 0 --> 
+ Sub 11 5 9
+ TestLess 8 14 7
+ SetAns 14
+ Output 15 14
+ Sub 8 15 4
+ Mod 11 12 2
+ CopyVal 15 12
+
+Gen: 220
+SetReg 2 1
+Call 1
+Call 8
+Call 9
+CopyVal 12 8
+CopyVal 8 12
+Pop 13 0
+TestLess 5 12 11
+SetReg 10 14
+SetReg 10 2
+TestNEqu 7 11 13
+GetC 5
+GetB 3
+Call 0
+GetB 14
+Define 5 8 --> 
+         Pop 8 14
+         Mult 2 5 1
+    Countdown 7 4 --> 
+     TestEqu 4 13 7
+     CopyVal 2 2
+     GetA 15
+     Sub 12 12 1
+     Output 8 13
+     TestEqu 13 7 13
+     SetAns 8
+     GetC 14
+     Not 10
+     Inc 13
+     GetB 8
+     Pop 10 6
+     Sub 4 9 12
+     Break 14
+While 11 0 --> 
+ Sub 11 5 9
+ TestLess 8 14 7
+ SetAns 14
+ Output 9 11
+ Sub 8 15 4
+ CopyVal 15 12
+
+Gen: 238
+SetReg 11 1
+Call 1
+Push 0 10
+Scope 5 --> 
+      CopyVal 12 8
+      CopyVal 8 12
+      Pop 13 11
+      TestLess 5 12 11
+      SetReg 10 6
+      SetReg 10 2
+      Break 8
+      CopyVal 8 12
+      GetC 5
+   Scope 3 --> 
+    GetB 14
+    Not 2
+    Countdown 7 4 --> 
+     TestEqu 4 13 7
+     CopyVal 14 2
+     GetA 15
+     Sub 12 12 1
+     Output 6 13
+     TestEqu 13 1 13
+     SetAns 8
+     GetC 14
+     Inc 13
+     GetB 8
+     Push 7 5
+     Pop 10 6
+     Sub 4 9 12
+     Break 14
+While 11 0 --> 
+ Sub 11 5 9
+ TestLess 8 14 7
+ SetAns 14
+ Output 6 11
+ Output 15 14
+ Sub 8 15 4
+ CopyVal 15 12
+
+Gen: 244
+SetReg 11 1
+Call 1
+Push 0 10
+Scope 5 --> 
+      CopyVal 12 8
+      CopyVal 8 8
+      Pop 13 11
+      TestLess 5 12 11
+      SetReg 10 6
+      SetReg 10 2
+      Break 8
+      CopyVal 8 12
+      GetC 5
+      GetB 3
+   Scope 3 --> 
+    GetB 14
+    Not 2
+    Countdown 7 4 --> 
+     TestEqu 4 13 7
+     CopyVal 14 2
+     GetA 15
+     Output 6 13
+     TestEqu 13 1 13
+     SetAns 8
+     GetC 14
+     Inc 13
+     GetB 8
+     Pop 10 6
+     Sub 4 9 12
+     ScopeReg 1
+While 11 0 --> 
+ Sub 11 5 9
+ TestLess 8 14 7
+ GetB 6
+ SetAns 14
+ Output 15 14
+ Sub 8 15 4
+ CopyVal 15 12
+
+Gen: 362
+CopyVal 12 8
+TestEqu 4 7 10
+Sub 0 4 2
+Pop 13 10
+TestLess 5 12 11
+CopyVal 2 5
+SetReg 14 14
+GetC 5
+GetC 10
+GetB 3
+Mod 5 5 13
+GetB 14
+Output 8 9
+Push 0 0
+Countdown 7 5 --> 
+      TestEqu 4 2 7
+      CopyVal 14 14
+      GetA 15
+      Output 7 8
+      Sub 12 10 3
+      TestEqu 8 6 1
+      TestEqu 14 10 13
+      Add 15 10 14
+      Call 4
+      SetAns 8
+      Pop 9 3
+      GetC 14
+      GetB 8
+      Sub 4 9 12
+ While 11 1 --> 
+  Sub 13 5 9
+  TestLess 8 14 7
+  SetAns 14
+  Dec 2
+  Sub 8 15 4
+  Call 6
+  CopyVal 15 12
+

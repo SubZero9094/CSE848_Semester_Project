@@ -1,0 +1,270 @@
+Gen: 1792
+TestNEqu 12 9 1
+Mult 15 2 12
+SetAns 0
+SetAns 0
+GetA 2
+CopyVal 7 0
+Add 0 2 5
+Push 10 13
+Mult 12 3 14
+GetA 3
+Div 5 6 15
+Call 0
+Countdown 4 7 --> 
+        Add 14 9 0
+        Add 3 7 2
+        Break 12
+        Add 12 14 9
+     While 14 5 --> 
+      Not 1
+      Not 7
+      Push 13 14
+      Not 4
+      Define 14 8 --> 
+
+Gen: 1793
+TestNEqu 12 9 1
+Mult 15 2 12
+SetAns 0
+GetA 2
+CopyVal 7 0
+Add 0 2 5
+Push 10 13
+Mult 12 3 14
+GetA 3
+Div 5 6 15
+Call 0
+Countdown 4 7 --> 
+        Add 14 9 0
+        Add 3 7 2
+        Break 12
+        Add 12 14 9
+     While 14 5 --> 
+      Not 1
+      Not 7
+      Push 13 14
+      Not 4
+      Define 14 8 --> 
+
+Gen: 1795
+TestNEqu 12 9 1
+Mult 15 2 12
+SetAns 0
+SetAns 0
+GetA 2
+CopyVal 7 0
+Add 0 2 5
+Push 4 13
+Mult 12 3 14
+GetA 3
+Div 5 6 15
+Call 0
+Countdown 4 7 --> 
+        Add 14 9 0
+        Add 3 7 2
+        Add 12 14 9
+     While 14 5 --> 
+      Not 1
+      Not 7
+      Push 13 14
+      Not 4
+
+Gen: 1806
+TestNEqu 12 9 1
+Mult 15 2 12
+SetAns 0
+GetA 2
+CopyVal 7 0
+Add 0 2 5
+Mult 12 3 14
+GetA 3
+Div 5 6 15
+Call 0
+Countdown 4 7 --> 
+        Add 14 9 0
+        Add 3 7 2
+        Break 12
+        Add 12 14 9
+     While 14 5 --> 
+      Not 1
+      Not 7
+      Not 4
+      Define 14 8 --> 
+
+Gen: 1809
+TestNEqu 12 9 1
+Mult 15 2 12
+SetAns 0
+SetAns 0
+GetA 2
+CopyVal 7 0
+Add 0 2 5
+Mult 12 3 14
+GetA 3
+Div 5 6 15
+Call 0
+Add 14 9 0
+Add 3 7 2
+Add 12 14 9
+While 14 5 --> 
+      Not 1
+      Not 7
+      Not 4
+      Define 14 8 --> 
+
+Gen: 1864
+Mult 15 2 12
+CopyVal 2 5
+SetAns 0
+GetA 2
+CopyVal 7 0
+Add 0 2 4
+Mult 12 3 14
+GetA 3
+Div 5 6 15
+Call 0
+Add 14 9 0
+Add 3 7 2
+Add 12 14 9
+Not 1
+Not 7
+Push 13 14
+Not 11
+Break 3
+
+Gen: 1881
+Mult 15 2 12
+Input 10 10
+SetAns 0
+Pop 4 11
+CopyVal 2 8
+Add 10 2 5
+Mult 12 3 14
+GetA 3
+Scope 12 --> 
+             Div 5 6 15
+             Add 14 9 0
+             Add 3 7 2
+             Add 12 14 9
+     While 14 5 --> 
+      Not 7
+      Pop 0 5
+      Break 7
+
+Gen: 1892
+Mult 15 2 12
+SetAns 0
+Countdown 8 2 --> 
+   GetA 2
+   CopyVal 7 0
+   Add 0 2 5
+   Mult 12 3 14
+   Div 5 6 15
+   Add 14 9 0
+   Add 3 7 2
+   Add 12 14 9
+   While 14 5 --> 
+      GetA 3
+      Output 11 13
+      Not 7
+      Define 7 8 --> 
+
+Gen: 1899
+Mult 15 2 12
+SetAns 0
+Countdown 8 2 --> 
+   GetA 2
+   CopyVal 7 0
+   Add 0 2 5
+   Mult 12 3 14
+   Div 5 6 15
+   Add 14 9 0
+   Add 3 7 2
+   Add 12 14 9
+   GetA 3
+   Output 0 13
+   Not 7
+   Define 7 8 --> 
+
+Gen: 1921
+Mult 15 2 12
+Mod 1 12 7
+CopyVal 2 5
+SetAns 0
+Mult 12 3 14
+GetA 3
+Div 5 6 15
+ScopeReg 14
+Add 14 9 0
+Add 3 11 2
+Add 12 14 9
+ScopeReg 2
+CopyVal 11 12
+Not 11
+
+Gen: 1930
+Mult 15 2 12
+Add 10 13 13
+CopyVal 2 5
+SetAns 0
+Mult 12 3 14
+GetA 3
+Div 5 6 15
+ScopeReg 10
+Add 14 9 0
+Add 3 11 2
+Add 12 14 9
+TestLess 2 6 8
+Not 11
+
+Gen: 1934
+Not 5
+Mult 15 2 12
+CopyVal 2 5
+SetAns 0
+Mult 12 3 14
+GetA 3
+Div 5 6 15
+Add 14 9 0
+Add 3 11 2
+Add 12 14 9
+CopyVal 11 12
+Not 11
+
+Gen: 1985
+Mult 15 2 12
+CopyVal 2 5
+SetAns 0
+Mult 12 3 14
+GetA 3
+Div 5 6 15
+Add 14 9 0
+Add 3 11 2
+Add 12 14 9
+CopyVal 12 12
+Not 11
+
+Gen: 2071
+Mult 15 2 12
+CopyVal 2 5
+SetAns 0
+Mult 12 3 14
+GetA 3
+Div 5 6 15
+Add 14 9 0
+Add 3 11 2
+Add 12 14 9
+Not 11
+
+Gen: 2129
+Mult 15 2 12
+SetAns 0
+Mult 12 3 14
+GetA 3
+Div 2 6 15
+Add 14 9 0
+Add 3 11 2
+Add 12 14 9
+Not 11
+

@@ -1,0 +1,145 @@
+Gen: 2274
+SetReg 9 0
+GetA 10
+Mult 5 15 4
+GetA 5
+Output 15 10
+Not 12
+SetAns 15
+Inc 10
+Dec 11
+TestLess 13 6 13
+GetA 12
+Pop 0 0
+Add 5 10 8
+SetReg 0 14
+Mult 8 10 10
+Mult 12 10 10
+Div 10 6 15
+
+Gen: 2275
+SetReg 9 0
+GetA 10
+Mult 5 15 4
+GetA 5
+Output 15 10
+Not 12
+SetAns 15
+Inc 10
+TestLess 13 6 13
+GetA 12
+Pop 0 0
+Add 5 10 8
+SetReg 0 14
+Mult 8 10 10
+Mult 12 10 10
+Div 10 6 15
+
+Gen: 2276
+SetReg 9 0
+GetA 10
+Mult 5 15 4
+GetA 5
+Output 15 10
+SetAns 15
+Inc 10
+Dec 11
+TestLess 13 6 13
+GetA 12
+Pop 0 0
+Add 5 10 8
+Mult 8 10 10
+Mult 12 10 10
+Div 10 6 15
+
+Gen: 2278
+GetA 10
+Mult 5 15 4
+GetA 5
+SetAns 15
+Inc 10
+Dec 11
+TestLess 15 6 13
+GetA 12
+Pop 0 0
+Add 5 10 8
+SetReg 0 14
+Mult 8 10 10
+Mult 12 10 10
+Div 10 6 15
+
+Gen: 2284
+GetA 10
+GetA 5
+Output 15 10
+Not 2
+SetAns 15
+Inc 10
+TestLess 13 6 13
+GetA 12
+Pop 0 0
+Add 5 10 8
+Mult 8 10 10
+Mult 12 10 10
+Div 10 6 15
+
+Gen: 2291
+SetReg 9 0
+GetA 10
+GetA 5
+SetAns 15
+Inc 10
+TestLess 13 6 13
+GetA 12
+Add 5 10 8
+SetReg 0 14
+Mult 8 10 10
+Mult 12 10 10
+Div 10 6 15
+
+Gen: 2332
+GetA 10
+GetA 5
+ScopeReg 14
+SetAns 15
+Inc 10
+Dec 11
+GetA 12
+Add 5 10 8
+Mult 8 10 10
+Mult 12 10 10
+Div 10 6 15
+
+Gen: 2339
+GetA 10
+GetA 5
+SetAns 15
+Inc 10
+GetA 12
+Add 5 10 8
+SetReg 0 14
+Mult 8 10 10
+Mult 12 10 10
+Div 10 6 15
+
+Gen: 2393
+GetA 10
+SetAns 15
+Inc 10
+GetA 12
+Add 12 10 8
+If 12 14 --> 
+               Mult 8 10 10
+               Mult 12 10 10
+               Div 10 6 15
+
+Gen: 2397
+GetA 10
+SetAns 15
+Inc 10
+GetA 12
+Add 12 10 8
+Mult 8 10 10
+Mult 12 10 10
+Div 10 6 15
+

@@ -1,0 +1,126 @@
+Gen: 5503
+Add 10 10 3
+Div 5 12 5
+SetReg 1 15
+SetAns 5
+Scope 8 --> 
+         Output 13 0
+         Output 0 2
+         Push 14 8
+      Countdown 10 6 --> 
+       Mult 10 3 11
+       Dec 8
+       GetA 10
+       Div 11 0 11
+       Inc 10
+       Countdown 3 13 --> 
+              Mult 11 3 5
+
+Gen: 5504
+Add 10 10 3
+TestNEqu 8 3 11
+Div 5 12 5
+SetAns 5
+Scope 8 --> 
+         Output 0 2
+         Push 14 8
+      Countdown 10 6 --> 
+       Mult 10 3 11
+       Dec 8
+       GetA 10
+       Div 11 0 11
+       Inc 10
+       Countdown 3 13 --> 
+              Mult 11 3 5
+
+Gen: 5505
+Add 10 10 3
+Div 5 12 5
+SetReg 1 15
+SetAns 5
+Scope 8 --> 
+         Output 0 2
+         Push 4 8
+      Countdown 10 6 --> 
+       Mult 10 3 11
+       GetA 10
+       Div 11 0 11
+       Inc 10
+       Countdown 3 13 --> 
+              Mult 11 3 5
+
+Gen: 5508
+Add 10 10 3
+Div 5 12 5
+SetReg 1 15
+SetAns 5
+Scope 8 --> 
+         Output 0 2
+         Push 14 8
+      Countdown 10 6 --> 
+       Mult 10 3 11
+       GetA 10
+       Inc 10
+       Countdown 3 13 --> 
+              Mult 11 3 5
+
+Gen: 5514
+Add 10 10 3
+Div 5 12 5
+SetAns 5
+Scope 8 --> 
+       Scope 7 --> 
+ Countdown 10 1 --> 
+  Mult 10 3 11
+  GetA 10
+  Div 11 0 11
+  Inc 10
+  Countdown 3 13 --> 
+              Mult 11 3 5
+
+Gen: 5527
+Add 10 10 3
+Div 5 12 5
+SetAns 5
+Scope 8 --> 
+         Output 10 0
+      Countdown 10 6 --> 
+       Mult 10 3 11
+       GetA 10
+       Inc 10
+       Countdown 3 13 --> 
+              Mult 11 3 5
+
+Gen: 5539
+Add 10 10 3
+Div 5 12 5
+SetAns 5
+Countdown 10 6 --> 
+       Mult 10 3 11
+       GetA 10
+       Inc 10
+       TestEqu 6 11 1
+       Countdown 3 13 --> 
+              Mult 11 3 5
+
+Gen: 5664
+Add 10 10 3
+Div 5 12 5
+SetAns 5
+Countdown 10 6 --> 
+       Mult 10 3 11
+       GetA 10
+       Inc 10
+       Countdown 3 9 --> 
+          Mult 11 3 5
+
+Gen: 5694
+Add 10 10 3
+Div 5 12 5
+SetAns 5
+GetA 10
+Mult 10 3 11
+Inc 10
+Countdown 3 13 --> 
+              Mult 11 3 5
+

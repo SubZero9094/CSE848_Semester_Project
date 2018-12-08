@@ -1,0 +1,188 @@
+Gen: 7905
+Add 1 12 14
+GetA 6
+Mult 0 7 7
+SetAns 7
+Scope 12 --> 
+             GetA 7
+             Not 0
+             Mult 10 3 3
+             GetA 10
+             Push 14 11
+             Push 5 12
+             TestNEqu 13 0 14
+ If 0 1 --> 
+  SetAns 11
+  Push 0 9
+  Mult 15 1 13
+  Add 3 3 9
+  If 10 9 --> 
+          Inc 10
+          Add 10 7 3
+          Div 9 12 11
+
+Gen: 7906
+Add 1 12 14
+GetA 6
+Mult 0 7 7
+Scope 12 --> 
+             GetA 7
+             Not 0
+             Mult 10 3 3
+             GetA 10
+             Push 14 11
+             Push 5 12
+ If 0 1 --> 
+  SetAns 11
+  Push 0 9
+  Mult 15 1 13
+  Add 3 3 9
+  If 10 9 --> 
+          Inc 10
+          Add 10 7 3
+          Div 9 12 11
+
+Gen: 7908
+Add 1 12 14
+GetA 6
+Mult 0 7 7
+Scope 12 --> 
+             GetA 7
+             Not 0
+             Mult 10 3 3
+             GetA 10
+             Push 14 11
+             Push 5 12
+ If 0 1 --> 
+  SetAns 11
+  Push 0 9
+  Mult 15 1 13
+  Add 3 3 9
+  Inc 10
+  Add 10 7 3
+  Div 9 12 11
+
+Gen: 7914
+Add 1 12 14
+GetA 6
+Mult 0 7 7
+SetAns 11
+Scope 12 --> 
+             GetA 7
+             Not 0
+             Mult 10 3 3
+             GetA 10
+             Push 14 11
+             TestNEqu 13 0 14
+ If 0 1 --> 
+  Mult 15 1 13
+  Add 3 3 9
+  Inc 10
+  Add 10 7 3
+  Div 9 12 11
+
+Gen: 7917
+GetA 6
+Mult 0 7 7
+Scope 12 --> 
+             GetA 7
+             Not 0
+             Mult 10 3 3
+             GetA 10
+             Push 6 11
+             Push 3 12
+ If 0 1 --> 
+  SetAns 11
+  Add 3 3 9
+  If 10 9 --> 
+          Inc 10
+          Add 10 7 3
+          Div 9 12 11
+
+Gen: 7928
+TestNEqu 1 1 4
+GetA 6
+Not 7
+Scope 12 --> 
+             GetA 7
+             Not 0
+             Mult 10 3 3
+             GetA 10
+ If 0 1 --> 
+  SetAns 11
+  Add 3 3 9
+  If 12 9 --> 
+          Inc 10
+          Add 10 7 3
+          Div 9 12 11
+
+Gen: 7931
+TestNEqu 1 2 4
+GetA 6
+GetA 7
+Not 0
+Mult 10 3 3
+GetA 10
+If 0 1 --> 
+  SetAns 11
+  Output 10 12
+  Add 3 3 9
+  If 10 9 --> 
+          Inc 10
+          Add 10 7 3
+          Div 9 12 11
+
+Gen: 7932
+TestNEqu 1 2 4
+GetA 6
+GetA 7
+Not 0
+Mult 10 3 3
+GetA 10
+If 0 1 --> 
+  SetAns 11
+  Output 10 12
+  Add 3 3 9
+  Inc 10
+  Add 10 7 3
+  Div 9 12 11
+
+Gen: 7968
+GetA 5
+GetA 7
+Not 0
+Mult 10 3 3
+GetA 10
+SetReg 15 8
+SetAns 11
+Add 3 3 9
+If 0 12 --> 
+             Inc 10
+             Add 10 7 3
+             Div 9 12 11
+
+Gen: 8029
+ScopeReg 12
+GetA 7
+Not 0
+Mult 10 3 3
+GetA 10
+If 0 1 --> 
+  SetAns 11
+  Add 3 3 9
+  Inc 10
+  Add 10 7 3
+  Div 9 12 11
+
+Gen: 8048
+GetA 7
+Not 0
+Mult 10 3 3
+GetA 10
+SetAns 11
+Add 3 3 9
+If 0 9 --> 
+          Inc 10
+          Add 10 7 3
+          Div 9 12 11
+

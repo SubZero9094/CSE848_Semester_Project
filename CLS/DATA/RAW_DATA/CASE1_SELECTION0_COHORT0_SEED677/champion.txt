@@ -1,0 +1,90 @@
+Gen: 2688
+Add 14 11 14
+TestNEqu 5 13 15
+TestNEqu 3 8 14
+Output 12 13
+GetA 4
+GetB 5
+Scope 5 --> 
+      GetA 11
+      Mult 3 11 6
+      GetB 15
+      Add 5 4 5
+      SetAns 5
+
+Gen: 2689
+Add 14 11 14
+TestNEqu 5 13 15
+Sub 1 10 12
+Output 12 13
+GetA 4
+GetB 5
+Scope 5 --> 
+      GetA 11
+      GetB 15
+      Add 5 4 5
+      SetAns 5
+
+Gen: 2690
+Add 14 11 2
+TestNEqu 5 13 15
+TestNEqu 3 8 14
+GetA 4
+GetB 5
+Scope 5 --> 
+      GetA 11
+      Mult 3 11 6
+      Add 5 4 5
+      SetAns 5
+
+Gen: 2692
+Add 14 11 14
+Output 12 13
+GetA 4
+GetB 5
+Scope 5 --> 
+      Mult 3 11 6
+      While 2 10 --> 
+           Add 5 4 5
+           SetAns 5
+
+Gen: 2699
+Add 14 11 14
+TestNEqu 5 13 15
+GetA 4
+GetB 5
+GetA 1
+Mult 3 11 13
+Add 5 4 5
+SetAns 5
+
+Gen: 2707
+TestNEqu 3 8 14
+GetA 4
+GetB 5
+Scope 5 --> 
+      SetAns 0
+      Add 5 4 5
+      SetAns 5
+
+Gen: 2709
+TestNEqu 3 8 14
+GetA 4
+GetB 5
+Scope 5 --> 
+      Add 5 4 5
+      SetAns 5
+
+Gen: 2749
+GetA 4
+GetB 5
+Mult 3 11 6
+Add 5 4 5
+SetAns 5
+
+Gen: 2825
+GetA 4
+GetB 5
+Add 5 4 5
+SetAns 5
+

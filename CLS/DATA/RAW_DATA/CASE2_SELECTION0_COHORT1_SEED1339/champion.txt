@@ -1,0 +1,24 @@
+Gen: 4578
+Div 3 12 13
+SetAns 14
+Input 13 7
+TestEqu 11 10 3
+Pop 11 14
+GetA 14
+Dec 0
+GetA 9
+GetA 14
+Scope 3 --> 
+    Inc 9
+    Add 9 14 11
+    Mult 9 11 1
+    Input 13 10
+    GetA 9
+    Mult 14 1 14
+    Pop 2 0
+    Add 13 13 13
+    Scope 12 --> 
+             GetA 11
+             GetA 10
+             Mult 14 13 14
+

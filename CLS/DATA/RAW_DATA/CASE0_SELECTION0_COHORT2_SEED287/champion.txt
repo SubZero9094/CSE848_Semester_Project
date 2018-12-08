@@ -1,0 +1,271 @@
+Gen: 123
+Add 0 15 4
+TestNEqu 7 2 11
+GetC 10
+Not 7
+GetB 12
+GetA 6
+GetB 0
+Sub 6 4 8
+If 13 3 --> 
+    GetA 15
+    Mult 11 2 13
+    GetB 1
+    Div 1 7 10
+    Call 14
+    Input 11 6
+    GetC 12
+    ScopeReg 14
+    SetAns 15
+    GetA 0
+    Pop 9 9
+  If 3 2 --> 
+   TestLess 0 10 6
+   Push 10 10
+   TestLess 12 1 2
+   Div 6 4 0
+   Call 4
+   TestNEqu 14 11 15
+   Mod 4 6 14
+   Countdown 14 7 --> 
+        Input 12 2
+        SetAns 12
+        GetB 9
+
+Gen: 126
+Add 0 15 4
+TestNEqu 7 2 11
+GetC 10
+Not 7
+GetB 12
+GetA 6
+GetB 0
+Sub 6 4 8
+If 13 3 --> 
+    GetA 15
+    Mult 11 2 13
+    GetB 1
+    Div 1 7 10
+    Call 15
+    Input 11 6
+    GetC 12
+    ScopeReg 14
+    SetAns 15
+    GetA 0
+  If 3 2 --> 
+   TestLess 0 10 6
+   Push 10 10
+   TestLess 12 1 2
+   Div 6 4 0
+   Call 4
+   TestNEqu 14 11 15
+   Mod 4 6 14
+   Countdown 14 7 --> 
+        Input 12 2
+        SetAns 12
+        Input 2 2
+
+Gen: 127
+Add 0 15 4
+TestNEqu 7 2 11
+GetC 10
+Not 7
+GetB 12
+GetA 6
+GetB 0
+Sub 3 4 8
+If 13 3 --> 
+    GetA 15
+    Mult 11 2 13
+    GetB 1
+    Div 1 7 10
+    Call 15
+    Input 11 6
+    GetC 12
+    SetAns 15
+    GetA 0
+  If 3 2 --> 
+   TestLess 0 10 6
+   Push 10 10
+   TestLess 12 1 2
+   Div 6 4 0
+   Call 4
+   TestNEqu 14 11 15
+   Mod 4 6 14
+   Countdown 14 7 --> 
+        Input 12 2
+        SetAns 12
+        Input 2 2
+
+Gen: 133
+Add 0 15 4
+TestNEqu 7 2 11
+GetC 10
+Not 7
+GetB 12
+GetB 0
+Sub 6 4 8
+If 13 5 --> 
+      GetA 15
+      Mult 11 2 13
+      GetB 1
+      Div 1 7 10
+      GetC 12
+      ScopeReg 14
+      SetAns 15
+      GetA 0
+      Pop 9 9
+  If 3 2 --> 
+   TestLess 0 10 6
+   Push 10 7
+   TestLess 12 1 2
+   Div 6 4 0
+   Call 4
+   TestNEqu 14 6 15
+   Mod 4 6 14
+   Countdown 14 7 --> 
+        Input 12 2
+        SetAns 12
+        GetB 9
+
+Gen: 149
+Add 0 15 4
+Push 7 12
+GetC 10
+Not 7
+GetB 12
+Output 4 8
+GetB 0
+Sub 3 4 8
+If 13 3 --> 
+    GetA 15
+    Mult 11 2 13
+    GetB 1
+    Div 1 7 10
+    Call 1
+    GetC 12
+    ScopeReg 14
+    SetAns 15
+    GetA 0
+  If 3 2 --> 
+   TestLess 0 10 6
+   Inc 11
+   TestLess 12 1 2
+   Div 6 4 0
+   TestNEqu 14 11 15
+   Mod 8 6 14
+   Countdown 14 7 --> 
+        Input 12 2
+        SetAns 12
+
+Gen: 389
+Add 0 15 4
+Not 7
+GetB 12
+Push 0 15
+GetB 0
+GetC 10
+Countdown 8 8 --> 
+         ----
+         If 13 8
+         GetA 15
+         Mult 11 2 13
+         GetB 1
+         Div 1 7 10
+         Push 1 4
+         GetC 12
+         Pop 14 9
+         SetAns 15
+         GetA 0
+  If 3 2 --> 
+   TestLess 0 10 6
+   TestLess 12 1 2
+   Div 6 4 0
+   TestNEqu 5 4 15
+   Mod 4 6 14
+   GetA 10
+   Countdown 14 5 --> 
+      Input 3 2
+      SetAns 12
+
+Gen: 433
+Add 0 15 4
+Not 7
+GetB 12
+Push 0 13
+GetB 0
+GetC 10
+Countdown 8 14 --> 
+        If 13 8 --> 
+         GetA 15
+         Mult 11 2 13
+         GetB 1
+         Div 1 7 10
+         Push 7 4
+         GetC 12
+         SetAns 15
+         GetA 0
+  If 3 2 --> 
+   TestLess 0 10 6
+   TestLess 12 1 2
+   Div 6 4 0
+   TestNEqu 5 4 15
+   Mod 4 6 14
+   Countdown 14 10 --> 
+           Dec 3
+           Input 3 2
+           SetAns 12
+
+Gen: 2352
+Countdown 3 1 --> 
+  CopyVal 9 1
+  Call 14
+  Add 0 13 4
+  GetC 10
+  GetB 12
+  Not 7
+  GetC 11
+  GetB 0
+  If 13 14 --> 
+               Mult 6 2 13
+               GetB 1
+               GetC 10
+               Div 0 7 10
+               GetC 12
+               GetA 0
+               SetAns 0
+       Scope 7 --> 
+        TestLess 0 10 6
+        TestLess 11 1 2
+        Div 6 4 0
+        Mod 4 6 14
+     Countdown 14 5 --> 
+      TestLess 14 4 5
+      SetAns 12
+
+Gen: 6031
+Dec 11
+Add 0 13 4
+GetC 10
+GetB 12
+Not 7
+GetB 0
+If 13 7 --> 
+        Mult 6 2 13
+        Div 12 7 10
+        GetC 12
+        GetA 0
+        Call 10
+        Mod 6 4 2
+        SetAns 0
+ Scope 1 --> 
+  GetB 1
+  TestLess 0 10 6
+  TestEqu 12 1 11
+  TestLess 10 1 2
+  Div 6 4 0
+  Countdown 3 11 --> 
+            Mod 4 6 14
+            Countdown 14 15 --> 
+                SetAns 12
+

@@ -1,0 +1,231 @@
+Gen: 2438
+Scope 5 --> 
+      TestLess 3 4 5
+      TestEqu 4 1 9
+      Push 6 1
+      SetAns 14
+      GetA 5
+   Scope 3 --> 
+    TestNEqu 11 5 1
+    SetReg 10 6
+    Div 2 10 9
+    Add 5 5 15
+    Inc 15
+    CopyVal 5 2
+    Inc 2
+    Not 14
+    Mult 15 5 1
+    Mult 1 2 14
+    Div 14 6 14
+    Sub 13 10 15
+    Define 12 12 --> 
+             Inc 7
+
+Gen: 2439
+Scope 5 --> 
+      TestLess 3 4 5
+      TestEqu 4 1 9
+      Push 6 1
+      SetAns 14
+      GetA 5
+   Scope 3 --> 
+    TestNEqu 1 5 1
+    SetReg 10 6
+    Div 2 10 9
+    Add 5 5 15
+    Inc 15
+    CopyVal 5 2
+    Inc 2
+    Mult 15 5 1
+    Mult 1 2 14
+    Div 14 6 14
+    Sub 13 14 15
+    Define 12 12 --> 
+             Inc 7
+
+Gen: 2440
+TestLess 3 4 5
+TestEqu 4 1 9
+Push 6 1
+SetAns 14
+GetA 5
+Scope 3 --> 
+    TestNEqu 11 5 1
+    SetReg 10 6
+    Div 2 10 9
+    Add 5 5 15
+    Inc 15
+    CopyVal 5 2
+    Inc 2
+    Mult 15 5 1
+    Mult 1 2 14
+    Div 14 6 14
+    Sub 13 10 15
+    Define 12 12 --> 
+             Inc 7
+
+Gen: 2441
+Scope 5 --> 
+      TestLess 3 4 5
+      TestEqu 4 1 9
+      SetAns 14
+      GetA 5
+      TestNEqu 11 5 1
+      SetReg 10 6
+      Div 2 10 9
+      Add 5 5 15
+      Inc 15
+      CopyVal 5 2
+      Inc 2
+      Not 14
+      Mult 15 5 1
+      Mult 1 2 14
+      Div 14 6 14
+      Sub 13 10 15
+      Inc 7
+
+Gen: 2443
+Scope 5 --> 
+      TestEqu 4 1 9
+      SetAns 14
+      GetA 5
+   Scope 3 --> 
+    SetReg 10 6
+    Div 2 10 9
+    Add 5 5 15
+    Inc 15
+    CopyVal 5 2
+    Inc 2
+    Not 14
+    Mult 15 5 1
+    Mult 1 2 14
+    Div 14 6 14
+    Define 12 12 --> 
+             Inc 7
+
+Gen: 2456
+TestEqu 2 1 9
+SetAns 14
+GetA 5
+Input 3 11
+Call 9
+Div 2 10 9
+Add 5 5 15
+Inc 15
+CopyVal 5 2
+Inc 2
+Mult 15 5 1
+ScopeReg 9
+Mult 1 2 14
+Div 14 6 14
+Sub 13 10 15
+Inc 7
+
+Gen: 2466
+Scope 5 --> 
+      TestLess 3 1 5
+      Push 6 4
+      SetAns 14
+      GetA 5
+      Div 0 9 15
+      Div 2 6 9
+      Add 5 5 15
+      Inc 15
+      CopyVal 5 2
+      Inc 2
+      Mult 15 5 1
+      Mult 1 2 14
+      Dec 4
+      Div 14 6 14
+
+Gen: 2470
+SetAns 14
+GetA 5
+Add 5 5 15
+Inc 15
+If 11 7 --> 
+        CopyVal 5 2
+        Inc 2
+        Output 15 0
+        Mult 15 5 1
+        Mult 1 2 14
+        Div 14 6 14
+        Inc 15
+        GetA 9
+        Mult 14 8 3
+
+Gen: 2488
+SetAns 14
+GetA 5
+Add 5 5 15
+Inc 15
+If 11 7 --> 
+        CopyVal 5 2
+        Inc 2
+        Mult 15 5 1
+        Mult 1 2 14
+        Div 14 6 14
+        Break 1
+        Mult 9 8 8
+        Inc 7
+
+Gen: 2489
+SetAns 14
+GetA 5
+Add 5 5 15
+Inc 15
+If 11 7 --> 
+        CopyVal 5 2
+        Inc 2
+        Mult 15 5 1
+        Mult 1 2 14
+        Div 14 6 14
+        Mult 9 8 8
+        Inc 7
+
+Gen: 2555
+SetAns 14
+GetA 5
+Add 5 5 15
+Inc 15
+Inc 14
+CopyVal 5 2
+Inc 2
+Mult 15 5 1
+Mult 1 2 14
+Div 14 6 14
+Output 1 14
+
+Gen: 2571
+SetAns 14
+GetA 5
+Add 5 5 15
+Inc 15
+CopyVal 5 2
+Inc 2
+Mult 15 5 1
+Mult 1 2 14
+Div 14 6 14
+Mult 6 8 3
+
+Gen: 2626
+SetAns 14
+GetA 5
+Add 5 5 15
+Inc 15
+CopyVal 5 2
+Inc 2
+Mult 15 5 1
+Mult 1 2 14
+Div 14 6 14
+
+Gen: 3320
+SetAns 14
+GetA 5
+Add 2 5 15
+CopyVal 5 2
+Inc 2
+Mult 15 5 1
+Mult 1 2 14
+Div 14 6 14
+

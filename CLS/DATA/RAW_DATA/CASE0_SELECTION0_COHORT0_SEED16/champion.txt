@@ -1,0 +1,240 @@
+Gen: 1602
+SetAns 7
+Scope 5 --> 
+      Inc 5
+      If 10 15 --> 
+                SetReg 1 9
+                GetA 13
+                GetA 3
+    If 1 4 --> 
+     Sub 13 5 13
+     GetB 11
+     SetAns 14
+     Add 7 13 11
+     ScopeReg 8
+     Not 5
+Scope 0 --> 
+ GetB 13
+ GetC 5
+ Dec 5
+ Break 12
+ Inc 13
+ Dec 9
+ Output 15 7
+ ScopeReg 5
+ Div 5 14 4
+ Push 11 1
+ Output 9 4
+ TestLess 11 13 10
+ Push 5 4
+ GetC 7
+ GetA 14
+ GetB 9
+ Call 13
+ Push 4 6
+ SetReg 6 5
+ Div 9 10 14
+ Pop 13 9
+ Div 14 14 13
+ Not 4
+ If 8 14 --> 
+               GetC 1
+               GetB 7
+               TestLess 14 1 5
+               Add 1 0 11
+               Output 6 15
+               Mod 5 8 8
+               Sub 8 5 1
+               Call 10
+          Scope 10 --> 
+           TestLess 14 15 15
+
+Gen: 1700
+SetAns 7
+Dec 3
+If 4 15 --> 
+                Inc 5
+              If 10 14 --> 
+               Add 11 5 2
+               SetReg 1 9
+               Div 14 10 9
+               GetA 13
+               Push 0 4
+               GetB 11
+               Call 1
+     If 1 5 --> 
+      Sub 13 5 13
+      Push 2 6
+      GetB 11
+      SetAns 14
+      Add 7 13 11
+Scope 0 --> 
+ GetB 13
+ GetC 5
+ SetReg 14 10
+ Scope 2 --> 
+   Inc 13
+   ScopeReg 5
+   Not 6
+   Output 14 1
+   TestLess 11 13 10
+   Push 8 4
+   GetC 7
+   GetA 14
+   GetB 9
+   Call 1
+   Call 4
+   Div 9 10 14
+   Mult 2 8 5
+   Div 14 14 4
+   Add 11 0 3
+   If 8 14 --> 
+               GetC 1
+               GetB 7
+               TestLess 14 1 5
+               Add 1 0 11
+               Mod 5 8 8
+               Div 1 7 3
+               Sub 8 5 1
+               GetB 13
+      Countdown 4 6 --> 
+
+Gen: 1786
+TestNEqu 3 7 0
+SetAns 7
+Inc 5
+If 10 15 --> 
+                Dec 15
+                TestLess 0 12 11
+                GetA 13
+                GetA 11
+                Not 1
+              If 1 14 --> 
+               Sub 13 5 13
+               Not 15
+               SetAns 14
+               Add 7 13 11
+               ScopeReg 8
+               SetReg 4 2
+   Scope 3 --> 
+    CopyVal 7 12
+    GetB 13
+    GetC 5
+    CopyVal 10 1
+    ----
+    Scope 3
+    Inc 2
+    ScopeReg 5
+    Break 10
+    TestLess 11 13 10
+    GetC 7
+    GetA 14
+    GetB 9
+    Call 13
+    Output 1 1
+    Div 9 10 14
+    TestNEqu 15 13 3
+    TestEqu 11 14 11
+    Div 2 9 5
+    Not 12
+    If 8 11 --> 
+            GetC 1
+            GetB 7
+            TestLess 14 1 5
+            Output 0 9
+            Output 7 10
+            Mod 5 8 8
+            Sub 8 5 1
+            GetC 11
+
+Gen: 1794
+TestNEqu 3 7 0
+SetAns 7
+Inc 5
+If 10 15 --> 
+                Dec 4
+                Not 1
+                GetA 13
+                GetA 11
+                Not 9
+              If 1 14 --> 
+               Sub 13 5 13
+               Not 15
+               SetAns 14
+               Add 7 13 11
+               Call 8
+               TestNEqu 3 0 5
+Scope 0 --> 
+ GetB 13
+ GetC 5
+ Output 9 7
+ Inc 2
+ ScopeReg 5
+ Break 10
+ Sub 15 6 9
+ TestLess 11 13 10
+ GetC 7
+ GetA 14
+ GetB 9
+ Call 13
+ Output 1 5
+ Div 9 10 14
+ TestEqu 11 14 11
+ Div 5 5 5
+ Not 12
+ Call 14
+ If 8 11 --> 
+            GetC 1
+            SetReg 12 11
+            GetB 7
+            TestLess 14 1 5
+            Inc 6
+            Mod 5 8 8
+            Sub 8 5 1
+            GetC 11
+
+Gen: 7756
+SetAns 7
+GetB 3
+If 10 2 --> 
+   Input 13 15
+   GetC 13
+   Pop 12 2
+   GetA 2
+   Inc 1
+   GetA 13
+   Dec 13
+   Output 2 14
+   Pop 1 15
+ If 1 1 --> 
+  Sub 13 6 13
+  CopyVal 8 4
+  SetAns 14
+  TestLess 14 14 2
+  Scope 5 --> 
+      Add 7 13 11
+      Not 6
+      Countdown 5 11 --> 
+Scope 0 --> 
+ GetB 13
+ Push 15 4
+ Scope 11 --> 
+            TestLess 11 13 10
+            CopyVal 7 3
+            GetB 3
+    Scope 4 --> 
+     GetA 14
+     Div 13 10 14
+     GetC 7
+     GetC 6
+     Output 3 6
+     GetB 4
+     Pop 12 2
+     Countdown 8 7 --> 
+        TestLess 14 6 5
+        Mod 5 8 8
+        GetA 1
+        GetB 7
+        GetC 11
+        Sub 8 5 1
+

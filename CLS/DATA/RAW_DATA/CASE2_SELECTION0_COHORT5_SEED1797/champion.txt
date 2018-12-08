@@ -1,0 +1,33 @@
+Gen: 5274
+Add 10 9 11
+Mult 8 11 13
+GetA 10
+Div 13 1 1
+GetA 9
+Div 10 6 8
+Not 6
+SetAns 1
+Div 6 14 6
+ScopeReg 15
+Inc 10
+Countdown 3 2 --> 
+   CopyVal 10 14
+   Add 10 10 9
+   Mult 10 13 1
+
+Gen: 6845
+Add 14 9 11
+Mult 8 11 13
+GetA 10
+Div 13 1 1
+Div 10 6 8
+Not 6
+SetAns 1
+Div 6 14 6
+GetA 9
+Inc 10
+Countdown 3 5 --> 
+      CopyVal 10 14
+      Add 10 10 9
+      Mult 14 13 1
+

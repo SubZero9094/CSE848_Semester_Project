@@ -1,0 +1,264 @@
+Gen: 6507
+SetReg 5 10
+Sub 11 10 11
+SetAns 11
+GetA 3
+Div 3 6 15
+Push 3 10
+Countdown 10 10 --> 
+           GetA 10
+           Div 14 13 2
+           Mult 7 2 1
+           TestEqu 3 2 7
+           Mult 15 9 11
+           If 10 14 --> 
+               TestLess 8 6 13
+               Add 10 15 14
+               Pop 5 8
+               SetAns 9
+               GetA 13
+               Add 3 3 15
+               Inc 3
+               Inc 1
+               Div 2 8 15
+               Mod 11 1 10
+               Push 15 5
+             Countdown 10 13 --> 
+              Inc 15
+              Mult 3 15 9
+
+Gen: 6736
+Countdown 5 6 --> 
+       Sub 11 10 11
+       CopyVal 10 3
+       SetAns 11
+       GetA 3
+       Output 10 10
+       Div 3 6 15
+       Push 3 3
+       GetA 10
+       Div 14 13 2
+       Mult 7 10 1
+       TestEqu 1 3 7
+       Mult 15 9 11
+       TestLess 2 8 13
+       Add 10 15 14
+       Pop 5 8
+       GetA 13
+       Add 10 13 15
+       Inc 3
+       Inc 1
+       Div 2 8 15
+       Mod 11 1 10
+       Push 15 5
+       Countdown 10 8 --> 
+         Inc 15
+         Mult 3 15 9
+
+Gen: 6748
+Countdown 5 4 --> 
+     Sub 11 10 11
+     SetAns 11
+     GetA 3
+     Output 7 10
+     Div 3 6 15
+     Push 3 3
+     GetA 10
+     Div 14 13 2
+     Mult 7 10 1
+     TestEqu 1 3 7
+     Mult 15 9 11
+     Add 10 15 14
+     Pop 5 8
+     GetA 13
+     Add 10 13 15
+     Inc 3
+     Inc 1
+     Div 2 8 15
+     Mod 11 1 10
+     Push 15 5
+     Countdown 10 10 --> 
+           Inc 15
+           GetA 12
+           Mult 3 15 9
+
+Gen: 6792
+Countdown 5 4 --> 
+     Sub 11 10 11
+     SetAns 11
+     GetA 3
+     Output 7 10
+     Div 3 6 15
+     GetA 10
+     Div 14 13 2
+     Mult 7 10 1
+     TestEqu 3 2 7
+     Mult 15 9 11
+     Add 10 15 14
+     Pop 5 8
+     GetA 13
+     Add 10 13 15
+     Inc 3
+     Inc 1
+     Div 2 8 15
+     Mod 11 1 10
+     Push 15 5
+     Countdown 10 10 --> 
+           Inc 15
+           ScopeReg 7
+           Mult 3 15 9
+
+Gen: 6814
+Countdown 5 4 --> 
+     Sub 11 10 11
+     SetAns 11
+     GetA 3
+     Div 3 6 15
+     GetA 10
+     Div 14 13 2
+     Mult 7 10 1
+     TestEqu 3 0 7
+     Mult 15 9 11
+     Add 10 15 14
+     Pop 5 8
+     GetA 13
+     Call 0
+     Add 10 13 15
+     Inc 3
+     Inc 1
+     Div 2 8 15
+     Mod 11 1 10
+     Push 15 5
+     Countdown 10 10 --> 
+           Inc 15
+           Mult 3 15 9
+
+Gen: 6815
+Sub 11 10 11
+SetAns 11
+GetA 3
+Div 3 6 15
+GetA 10
+Div 14 13 2
+Mult 7 10 1
+TestEqu 3 0 7
+Mult 15 9 11
+Add 10 15 14
+Pop 5 8
+GetA 13
+Call 0
+Add 10 13 15
+Inc 3
+Inc 1
+Div 2 8 15
+Mod 11 1 10
+Push 15 5
+Countdown 10 10 --> 
+           Inc 15
+           Mult 3 15 9
+
+Gen: 7125
+Countdown 5 1 --> 
+  GetA 13
+  Sub 11 10 11
+  SetAns 11
+  GetA 3
+  GetA 10
+  Not 1
+  Div 3 6 15
+  Div 14 10 2
+  Output 13 0
+  Mult 15 9 11
+  Add 3 15 14
+  Pop 5 8
+  Add 10 10 15
+  Inc 3
+  Div 2 8 15
+  Mod 11 1 10
+  Push 15 5
+  Countdown 10 15 --> 
+                Inc 15
+                Mult 3 15 9
+
+Gen: 7163
+Countdown 5 1 --> 
+  Sub 11 10 11
+  Dec 13
+  SetAns 11
+  GetA 3
+  GetA 10
+  Not 1
+  Div 3 6 15
+  Div 14 10 2
+  Mult 15 9 11
+  Add 3 15 14
+  Pop 5 8
+  Add 10 10 15
+  Inc 3
+  Div 2 8 15
+  Mod 11 1 10
+  Push 15 5
+  Countdown 10 14 --> 
+               Inc 15
+               Mult 3 15 9
+
+Gen: 7315
+Countdown 13 1 --> 
+  GetA 3
+  Sub 11 10 11
+  SetAns 11
+  GetA 10
+  Not 1
+  Div 3 6 15
+  Div 14 10 2
+  Mult 15 9 11
+  Add 3 15 14
+  Pop 5 8
+  Add 10 3 15
+  Inc 3
+  Div 2 8 15
+  Mod 11 1 10
+  Push 15 5
+  Countdown 10 10 --> 
+           Inc 15
+           Mult 3 15 9
+
+Gen: 7706
+Countdown 13 1 --> 
+  GetA 3
+  Sub 11 10 11
+  SetAns 11
+  GetA 10
+  Not 1
+  Div 3 6 15
+  Mult 15 9 11
+  SetReg 2 9
+  Pop 5 8
+  Add 10 3 15
+  Inc 3
+  Div 2 8 15
+  Mod 11 1 10
+  Push 15 5
+  Countdown 10 6 --> 
+       Inc 15
+       Mult 3 15 9
+
+Gen: 7754
+Countdown 13 1 --> 
+  GetA 3
+  Sub 11 10 11
+  SetAns 11
+  Not 1
+  Div 3 6 15
+  Mult 15 9 11
+  SetReg 2 9
+  Pop 5 8
+  Add 3 3 15
+  Inc 3
+  Div 2 8 15
+  Mod 11 1 10
+  Push 15 5
+  Countdown 10 13 --> 
+              Inc 15
+              Mult 3 15 9
+

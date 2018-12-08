@@ -1,0 +1,150 @@
+Gen: 179
+GetB 14
+Countdown 4 14 --> 
+               Dec 15
+               Mod 6 1 13
+               SetAns 2
+           Scope 11 --> 
+            Call 4
+            GetA 0
+            SetAns 6
+            Push 8 13
+            Mod 12 1 4
+            Sub 9 12 7
+            Div 10 10 9
+            Mod 13 4 5
+            SetAns 2
+            Add 8 4 12
+            GetB 3
+            GetC 12
+            Call 7
+            TestEqu 14 3 1
+ If 5 1 --> 
+  SetReg 6 15
+  TestLess 14 12 4
+  Input 2 15
+  TestLess 12 0 9
+  TestEqu 15 4 12
+  Sub 3 0 15
+  TestEqu 8 13 6
+  GetC 6
+  If 9 3 --> 
+    Mod 13 1 7
+    Output 7 5
+    Output 3 1
+    TestNEqu 12 0 1
+    Pop 9 7
+    Div 12 5 5
+    TestEqu 13 7 4
+If 5 0 --> 
+ TestNEqu 11 6 12
+ SetAns 14
+ While 8 9 --> 
+          CopyVal 7 9
+          GetA 2
+          TestLess 7 15 13
+          GetA 11
+          Countdown 13 11 --> 
+            SetReg 5 6
+            Input 6 9
+            Mult 5 14 7
+
+Gen: 183
+GetB 14
+Countdown 4 14 --> 
+               Dec 15
+               Mod 14 10 13
+               SetAns 2
+           Scope 11 --> 
+            GetA 0
+            SetAns 6
+            Push 8 13
+            Mod 12 1 4
+            Sub 9 12 7
+            Div 10 10 9
+            Mod 13 4 5
+            SetAns 2
+            Countdown 9 14 --> 
+               Add 8 4 8
+               GetB 3
+               GetC 12
+               Call 7
+               Input 8 9
+ If 5 1 --> 
+  SetReg 6 2
+  TestLess 14 12 4
+  Input 2 15
+  TestLess 12 0 9
+  TestEqu 15 4 12
+  Sub 3 0 15
+  Add 12 6 8
+  GetC 6
+  If 9 10 --> 
+           Mod 13 1 7
+           Mod 7 5 9
+           Output 15 1
+           TestNEqu 12 0 1
+           Inc 13
+           Pop 9 7
+           Div 12 13 5
+           TestEqu 13 7 4
+If 5 0 --> 
+ TestNEqu 11 14 12
+ SetAns 14
+ While 8 9 --> 
+          CopyVal 14 13
+          GetA 2
+          TestLess 7 15 13
+          Countdown 13 11 --> 
+            SetReg 5 6
+            Mult 5 9 7
+
+Gen: 290
+GetB 14
+Countdown 4 14 --> 
+               Mod 8 13 10
+               Input 9 3
+               SetAns 2
+  Scope 2 --> 
+   Call 12
+   GetA 0
+   SetAns 6
+   Push 2 13
+   Mod 13 2 7
+   Sub 9 4 7
+   Mod 6 4 11
+   SetAns 2
+   GetB 3
+   GetC 12
+   TestEqu 14 3 1
+ Countdown 1 1 --> 
+  If 5 10 --> 
+           SetReg 6 5
+           Output 13 9
+           TestLess 14 12 4
+           Input 8 15
+           TestLess 12 0 9
+           Output 8 11
+           TestEqu 15 4 12
+           Sub 3 0 15
+           TestEqu 5 2 0
+           GetC 6
+           If 9 14 --> 
+               Mod 3 13 7
+               Output 10 12
+               Mod 2 10 10
+               TestNEqu 12 11 10
+               SetReg 8 3
+               Pop 9 0
+               Div 12 8 5
+If 5 0 --> 
+ TestNEqu 1 14 13
+ Dec 12
+ Input 1 9
+ SetAns 3
+ GetA 2
+ TestLess 9 15 13
+ GetA 11
+ Countdown 13 11 --> 
+            SetReg 5 6
+

@@ -1,0 +1,40 @@
+Gen: 244
+Inc 1
+Output 8 7
+Push 5 0
+GetB 8
+GetA 11
+GetC 6
+GetB 15
+Mult 7 3 14
+SetAns 8
+GetB 12
+TestLess 15 6 7
+TestLess 11 5 10
+Mult 1 5 9
+If 10 10 --> 
+           TestNEqu 11 12 7
+           CopyVal 11 8
+           TestLess 11 15 11
+           TestNEqu 10 14 2
+           SetAns 8
+  Countdown 7 2 --> 
+   TestLess 12 11 9
+   Add 7 15 5
+   Break 9
+   Scope 8 --> 
+         Not 7
+         GetC 12
+         Dec 14
+         Mod 11 14 7
+         If 1 13 --> 
+              SetAns 6
+              Pop 9 11
+              Dec 10
+              TestLess 8 11 6
+              ScopeReg 9
+              TestLess 12 15 1
+      Scope 6 --> 
+  Scope 2 --> 
+   Mult 12 2 5
+

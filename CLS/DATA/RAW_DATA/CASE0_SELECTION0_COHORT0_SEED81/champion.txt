@@ -1,0 +1,118 @@
+Gen: 252
+Call 6
+TestLess 12 6 8
+Call 5
+Sub 9 1 6
+GetA 9
+If 15 10 --> 
+           Call 8
+         If 13 9 --> 
+          Not 6
+          Dec 8
+          Push 13 10
+          GetB 7
+          Call 14
+          CopyVal 7 14
+          Countdown 0 10 --> 
+           Countdown 11 13 --> 
+              GetC 7
+              Not 2
+         Define 6 9 --> 
+          Add 0 8 7
+          GetB 1
+          Inc 6
+          TestLess 9 1 11
+          Push 7 11
+          Div 11 7 8
+          SetAns 9
+          If 9 11 --> 
+       Scope 7 --> 
+        TestLess 9 14 13
+        Output 1 4
+        GetC 14
+        Div 14 8 2
+        SetAns 7
+        Pop 0 10
+    While 8 4 --> 
+     TestLess 9 14 0
+     Mult 0 1 12
+     GetC 9
+
+Gen: 257
+Call 6
+TestLess 12 6 8
+Call 5
+Sub 9 1 6
+GetA 9
+If 15 10 --> 
+           ----
+           Scope 10
+         If 13 9 --> 
+          Not 6
+          Dec 8
+          Push 13 10
+          GetB 7
+          Call 14
+          CopyVal 7 14
+          Countdown 0 10 --> 
+           Countdown 11 13 --> 
+              GetC 7
+         Define 6 9 --> 
+          Add 0 8 7
+          GetB 1
+          Inc 6
+          TestLess 9 1 11
+          Push 7 11
+          Div 11 7 8
+          SetAns 9
+          If 9 11 --> 
+       Scope 7 --> 
+        TestLess 9 14 13
+        Output 1 4
+        GetC 14
+        Div 14 8 2
+        SetAns 7
+        Pop 0 10
+    While 8 4 --> 
+     TestLess 9 14 0
+     Mult 0 1 12
+     GetC 9
+
+Gen: 305
+Call 6
+TestLess 12 6 8
+Call 0
+Sub 9 1 6
+GetA 9
+If 4 10 --> 
+           Call 8
+         If 13 9 --> 
+          Not 6
+          Dec 8
+          GetB 7
+          Call 4
+          CopyVal 7 14
+          Countdown 0 10 --> 
+           Countdown 11 13 --> 
+              GetC 7
+         Define 6 9 --> 
+          ScopeReg 13
+          GetB 1
+          Inc 6
+          TestLess 9 1 11
+          Push 15 13
+          Div 11 7 8
+          SetAns 9
+          If 9 15 --> 
+        Scope 8 --> 
+         TestLess 9 14 13
+         Output 8 4
+         GetC 14
+         Call 12
+         SetAns 7
+         CopyVal 14 14
+    While 8 4 --> 
+     TestLess 9 14 0
+     Mult 0 2 12
+     GetC 9
+

@@ -1,0 +1,144 @@
+Gen: 4155
+Input 4 2
+Input 3 1
+Div 11 7 2
+GetA 10
+Not 9
+Mult 13 7 12
+Add 10 10 7
+Mod 15 14 1
+SetReg 15 5
+SetAns 11
+Inc 7
+Mult 13 8 11
+Not 3
+Mod 12 14 3
+Countdown 3 10 --> 
+           Break 15
+           TestLess 0 12 15
+         While 4 9 --> 
+          GetA 3
+          Mod 9 6 1
+          If 5 11 --> 
+            Mod 11 4 13
+            Div 12 6 8
+            Add 10 1 13
+
+Gen: 4174
+Input 4 2
+Input 3 1
+Div 0 7 2
+GetA 10
+Not 9
+Mult 13 7 12
+Add 10 10 7
+Mod 15 14 1
+SetReg 15 5
+SetAns 11
+Inc 7
+Mult 13 8 11
+Not 3
+Mod 12 14 3
+Countdown 13 10 --> 
+           ----
+           Countdown 3 10
+           Break 15
+           TestLess 9 12 15
+         While 4 9 --> 
+          Mod 9 6 1
+          Mod 11 3 13
+          Div 12 6 8
+          Add 10 1 13
+
+Gen: 4221
+Input 4 2
+Input 3 1
+GetA 10
+Not 9
+Mult 13 7 12
+Add 10 10 7
+Mod 10 14 5
+SetAns 11
+Inc 7
+Mult 13 8 11
+Not 3
+Mod 5 14 3
+Countdown 3 10 --> 
+           Break 15
+           Pop 0 3
+         While 4 9 --> 
+          GetA 3
+          Mod 9 6 1
+          Mod 5 12 0
+          Mod 11 11 3
+          Div 12 6 8
+          Add 10 1 13
+
+Gen: 4571
+GetA 10
+Not 9
+Break 6
+Mult 13 7 12
+Add 10 10 7
+SetAns 11
+Inc 7
+Mult 13 8 11
+Mod 12 14 3
+Countdown 3 5 --> 
+      TestLess 15 1 8
+      Mod 3 8 1
+      Output 11 6
+      Scope 13 --> 
+              Push 12 6
+   If 12 3 --> 
+    ScopeReg 9
+    ----
+    Scope 3
+    SetReg 2 5
+    Div 12 6 8
+    Add 10 9 13
+
+Gen: 5162
+Sub 12 12 4
+Not 9
+Mult 13 7 12
+Add 10 10 7
+Div 5 11 1
+SetAns 11
+GetA 0
+While 10 3 --> 
+    Inc 7
+    Mult 13 8 11
+    Mod 12 14 3
+    Call 12
+    Define 2 12 --> 
+        Countdown 3 8 --> 
+         Push 7 10
+       Countdown 0 7 --> 
+        GetA 10
+        Div 12 6 8
+        Push 7 15
+        Add 10 9 13
+
+Gen: 8864
+GetA 10
+SetAns 11
+Mult 13 7 12
+TestLess 15 13 7
+Add 10 10 7
+Inc 7
+Not 9
+Mult 13 8 11
+Mult 4 13 1
+Mod 12 14 3
+Scope 12 --> 
+          Countdown 3 10 --> 
+           SetReg 15 11
+           Countdown 13 12 --> 
+             ----
+             Scope 12
+         If 10 9 --> 
+          Div 12 6 8
+          ScopeReg 15
+          Add 10 9 13
+

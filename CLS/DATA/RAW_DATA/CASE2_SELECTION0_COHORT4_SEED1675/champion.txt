@@ -1,0 +1,186 @@
+Gen: 2442
+Not 2
+Inc 9
+Mult 7 9 13
+Mult 7 15 8
+Not 6
+GetA 10
+SetReg 0 6
+Add 10 10 9
+GetA 1
+Div 13 0 15
+Mod 2 2 5
+Pop 1 11
+Mod 10 15 1
+Call 7
+If 14 13 --> 
+              Add 10 6 7
+              Sub 2 6 2
+              Mod 8 2 14
+              SetAns 8
+
+Gen: 2443
+Not 2
+Inc 9
+Mult 7 9 13
+Mult 7 15 8
+Not 6
+GetA 10
+SetReg 0 6
+Add 10 10 9
+GetA 1
+Div 13 0 15
+Pop 1 11
+Mod 10 8 1
+Call 7
+If 14 13 --> 
+              Add 10 6 7
+              Sub 2 6 2
+              Mod 8 2 14
+              SetAns 8
+
+Gen: 2444
+Not 2
+Inc 9
+Mult 7 9 13
+Mult 7 15 8
+Not 6
+GetA 10
+SetReg 0 6
+Add 10 10 9
+Div 13 0 15
+Mod 2 2 5
+Pop 1 11
+Call 7
+If 14 13 --> 
+              Add 10 6 7
+              Sub 2 6 2
+              Mod 8 2 14
+              SetAns 8
+
+Gen: 2449
+Not 2
+Inc 9
+Mult 7 9 13
+Mult 7 15 8
+Not 6
+GetA 10
+SetReg 0 6
+Add 10 10 9
+Div 13 0 15
+Pop 1 11
+Inc 0
+If 14 13 --> 
+              Add 10 6 7
+              Sub 2 6 2
+              Mod 8 2 14
+              SetAns 8
+
+Gen: 2471
+Not 2
+Inc 9
+Mult 7 9 13
+Mult 7 15 8
+Not 6
+GetA 10
+SetReg 0 6
+Add 10 10 9
+Div 13 0 15
+Call 5
+If 14 13 --> 
+              Add 10 6 7
+              Sub 2 6 2
+              Mod 8 2 14
+              SetAns 8
+
+Gen: 2492
+Not 2
+Inc 9
+Mult 7 9 13
+Mult 7 15 8
+Not 6
+GetA 10
+SetReg 0 6
+Add 10 10 9
+Div 13 0 15
+If 14 13 --> 
+              Add 10 6 7
+              Sub 2 6 2
+              Mod 8 2 14
+              SetAns 8
+
+Gen: 3693
+TestLess 11 6 10
+If 9 0 --> 
+ Inc 9
+ Mult 7 9 13
+ GetA 10
+ SetReg 0 6
+ Add 10 10 9
+ Div 13 0 8
+ GetA 15
+ Add 10 1 7
+ Mult 10 7 7
+ Dec 15
+ SetAns 8
+
+Gen: 3707
+If 9 0 --> 
+ Inc 9
+ Mod 15 6 5
+ Mult 7 9 13
+ GetA 10
+ SetReg 0 6
+ Add 10 10 9
+ Div 13 0 8
+ Add 10 1 7
+ Mult 10 7 7
+ Dec 15
+ SetAns 8
+
+Gen: 3714
+Inc 9
+Mult 7 9 13
+Not 6
+GetA 10
+SetReg 0 6
+Add 10 10 9
+Div 13 0 8
+Add 10 1 7
+Mult 10 7 7
+Dec 5
+SetAns 8
+
+Gen: 3717
+Inc 9
+Mult 7 9 13
+Not 6
+GetA 10
+SetReg 0 6
+Add 10 10 9
+Div 13 0 8
+Add 10 1 7
+Mult 10 7 7
+SetAns 8
+
+Gen: 3761
+Inc 9
+Mult 7 9 13
+GetA 10
+SetReg 0 6
+Add 10 10 9
+Div 13 0 8
+Add 10 1 7
+Mult 10 7 7
+SetAns 8
+
+Gen: 3924
+Inc 9
+Mult 7 9 13
+GetA 10
+Add 10 10 9
+Div 13 6 8
+Add 10 1 7
+Mult 10 7 7
+SetAns 8
+

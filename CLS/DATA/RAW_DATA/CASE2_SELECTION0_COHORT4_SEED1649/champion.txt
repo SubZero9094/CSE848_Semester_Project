@@ -1,0 +1,185 @@
+Gen: 1979
+Div 11 6 12
+Mod 5 7 10
+Mult 12 4 8
+Break 5
+Mult 13 10 12
+Break 9
+Add 11 4 15
+Pop 12 9
+Scope 3 --> 
+    Mult 15 8 5
+ While 12 1 --> 
+  GetA 4
+  SetAns 5
+  Sub 0 15 11
+  Dec 5
+  Countdown 12 5 --> 
+      Countdown 2 12 --> 
+             SetReg 8 8
+             Inc 4
+             GetA 11
+             Add 10 2 7
+
+Gen: 1980
+Div 11 6 12
+Mod 5 7 10
+Mult 12 4 8
+Break 5
+Mult 13 10 12
+Break 9
+Add 11 4 15
+Pop 12 9
+Scope 3 --> 
+    Mult 15 8 5
+ While 12 1 --> 
+  GetA 4
+  SetAns 5
+  Sub 0 15 11
+  Dec 5
+  Countdown 12 5 --> 
+      Countdown 2 12 --> 
+             Inc 4
+             GetA 11
+             Add 10 2 7
+
+Gen: 1991
+Div 11 6 12
+Mod 5 7 10
+Mult 12 4 8
+Break 13
+While 10 0 --> 
+ Break 9
+ Add 11 4 15
+ Scope 3 --> 
+    Mult 15 8 5
+    GetA 4
+    SetAns 5
+    Sub 0 15 11
+    Dec 5
+    Countdown 12 9 --> 
+          Countdown 2 12 --> 
+             Inc 4
+             GetA 11
+             ScopeReg 10
+             Add 10 2 7
+
+Gen: 2028
+Div 11 6 12
+Mod 5 7 10
+Mult 12 4 8
+Break 5
+Mult 3 10 12
+Add 11 4 15
+If 10 13 --> 
+              Mult 15 8 5
+ While 12 1 --> 
+  GetA 4
+  SetAns 5
+  Sub 2 15 11
+  Dec 5
+  Countdown 12 3 --> 
+    Countdown 2 8 --> 
+         Inc 4
+         GetA 11
+         Add 10 2 7
+
+Gen: 2046
+Div 11 6 12
+Mod 5 7 10
+Mult 12 4 8
+Mult 3 10 12
+Break 12
+Add 11 4 15
+If 10 13 --> 
+              Mult 15 8 5
+ While 12 1 --> 
+  GetA 4
+  SetAns 5
+  Sub 0 15 11
+  Dec 5
+  Countdown 2 8 --> 
+         Inc 4
+         GetA 11
+         Add 10 2 7
+
+Gen: 2061
+Div 11 6 12
+Mod 5 7 10
+Mult 12 4 8
+Sub 3 2 1
+Break 12
+Add 11 4 15
+If 10 13 --> 
+              Mult 15 8 5
+              GetA 4
+              SetAns 5
+              Sub 2 15 11
+              Dec 5
+        Countdown 2 8 --> 
+         Inc 4
+         GetA 11
+         Add 10 2 7
+
+Gen: 2066
+Div 11 6 12
+Mod 5 7 10
+Mult 12 4 8
+Break 12
+Add 11 4 15
+If 10 13 --> 
+              Mult 15 8 5
+              GetA 4
+              SetAns 5
+              Sub 0 15 11
+              Dec 5
+        Countdown 2 8 --> 
+         Inc 4
+         GetA 11
+         Add 10 2 7
+
+Gen: 2086
+Div 11 6 12
+Mod 5 7 10
+Mult 12 4 8
+Add 11 4 15
+If 10 10 --> 
+           Mult 15 8 5
+           GetA 4
+           SetAns 5
+           Sub 2 15 11
+           Dec 5
+        Countdown 2 8 --> 
+         Inc 4
+         GetA 11
+         Add 10 2 7
+
+Gen: 2228
+Div 11 6 12
+Mod 5 7 10
+Mult 12 4 8
+Add 11 4 15
+If 10 3 --> 
+    Mult 15 8 5
+    GetA 4
+    CopyVal 8 7
+    SetAns 5
+    Sub 2 15 11
+    Countdown 2 9 --> 
+          Inc 4
+          GetA 11
+
+Gen: 7417
+If 10 4 --> 
+     Div 11 6 12
+     Mod 5 8 10
+     Mult 12 4 8
+     Add 11 4 15
+     SetAns 5
+     Mult 15 8 5
+     GetA 4
+     Sub 2 15 11
+     Countdown 2 13 --> 
+              Inc 4
+              GetA 11
+

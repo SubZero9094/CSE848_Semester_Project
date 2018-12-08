@@ -1,0 +1,156 @@
+Gen: 8382
+Div 14 5 11
+Countdown 13 6 --> 
+       Div 12 3 11
+       Mult 8 11 14
+       GetA 11
+       SetAns 14
+       Inc 11
+       Div 6 11 3
+       Countdown 5 10 --> 
+           CopyVal 1 8
+           Not 13
+           Input 14 9
+           Pop 2 3
+           TestLess 6 15 10
+           GetA 12
+           If 15 12 --> 
+             ScopeReg 12
+    Scope 4 --> 
+     Mod 14 7 13
+     Sub 0 12 8
+     Sub 8 11 12
+
+Gen: 8383
+Div 14 5 11
+Countdown 13 6 --> 
+       Div 12 3 11
+       Mult 8 11 14
+       GetA 11
+       SetAns 14
+       Inc 11
+       Div 6 11 3
+       Countdown 5 10 --> 
+           CopyVal 1 8
+           Not 13
+           Input 14 9
+           Pop 2 3
+           TestLess 6 15 10
+           GetA 12
+           If 15 12 --> 
+    Scope 4 --> 
+     Mod 14 7 13
+     Sub 0 12 8
+     Sub 8 11 12
+
+Gen: 8384
+Div 14 5 11
+Countdown 13 6 --> 
+       Div 12 3 11
+       Mult 8 11 14
+       GetA 11
+       SetAns 14
+       Inc 11
+       Div 6 11 3
+       Countdown 5 10 --> 
+           Not 13
+           Input 14 9
+           Pop 2 3
+           TestLess 6 15 10
+           GetA 12
+           ScopeReg 12
+    Scope 4 --> 
+     Mod 14 7 13
+     Sub 0 12 8
+     Sub 8 11 12
+
+Gen: 8386
+Div 14 5 11
+Countdown 13 6 --> 
+       Div 12 3 11
+       Mult 8 11 14
+       GetA 11
+       SetAns 14
+       Inc 11
+       Div 6 11 3
+       Countdown 5 10 --> 
+           Not 13
+           Pop 2 3
+           TestLess 6 15 10
+           GetA 12
+           If 15 12 --> 
+    Scope 4 --> 
+     Mod 14 7 13
+     Sub 0 12 8
+     Sub 8 11 12
+
+Gen: 8393
+Div 14 11 11
+Countdown 13 6 --> 
+       Div 12 3 11
+       Mult 8 11 14
+       GetA 11
+       SetAns 14
+       Inc 11
+       Div 6 11 3
+       Countdown 5 10 --> 
+           Not 13
+           Pop 2 3
+           TestLess 6 15 10
+           GetA 12
+    Scope 4 --> 
+     Mod 14 7 13
+     Sub 0 12 8
+     Sub 8 11 12
+
+Gen: 8407
+Countdown 13 6 --> 
+       Div 12 3 11
+       Mult 8 11 14
+       GetA 11
+       SetAns 14
+       Inc 11
+       Div 6 11 3
+       Countdown 5 10 --> 
+           Input 10 8
+           Not 13
+           Push 9 15
+           GetA 12
+    Scope 4 --> 
+     Mod 14 7 13
+     Sub 0 12 8
+     Sub 8 11 12
+
+Gen: 8420
+Countdown 13 6 --> 
+       Div 12 3 11
+       Mult 8 11 14
+       GetA 11
+       SetAns 14
+       Inc 11
+       Div 6 11 3
+       Countdown 5 10 --> 
+           Input 10 8
+           Not 13
+           GetA 12
+    Scope 4 --> 
+     Mod 14 7 13
+     Sub 0 12 8
+     Sub 8 11 12
+
+Gen: 8542
+Countdown 13 6 --> 
+       Div 12 3 11
+       Mult 8 11 14
+       GetA 11
+       SetAns 14
+    Scope 4 --> 
+     Inc 11
+     Div 6 11 3
+     Countdown 7 12 --> 
+             GetA 12
+    Scope 4 --> 
+     Mod 14 9 13
+     Sub 0 12 8
+     Sub 8 11 12
+

@@ -1,0 +1,259 @@
+Gen: 2408
+SetAns 6
+Mod 14 5 14
+Mult 3 6 13
+While 15 5 --> 
+      TestLess 15 6 8
+      TestEqu 6 2 8
+      Mult 0 0 12
+      Inc 14
+      Add 5 12 2
+      Not 7
+      Mult 14 2 1
+      Inc 14
+      SetReg 8 7
+      GetA 0
+      Countdown 2 10 --> 
+           Dec 8
+           Add 11 12 5
+           TestLess 3 8 6
+           GetA 11
+           CopyVal 0 14
+           Dec 12
+           Div 1 8 6
+           Define 4 11 --> 
+
+Gen: 2409
+SetAns 6
+Mod 14 5 14
+Mult 3 6 13
+While 15 5 --> 
+      TestLess 15 6 8
+      TestEqu 6 2 8
+      Mult 0 0 12
+      Inc 14
+      Add 5 12 2
+      Mult 14 2 1
+      Inc 14
+      SetReg 8 7
+      GetA 0
+      Countdown 2 10 --> 
+           Dec 8
+           Add 11 12 5
+           TestLess 3 8 6
+           GetA 11
+           CopyVal 0 14
+           Dec 12
+           Div 1 8 6
+           Define 4 11 --> 
+
+Gen: 2410
+SetAns 6
+Mod 14 5 14
+TestLess 15 6 8
+TestEqu 6 2 8
+Mult 0 0 12
+Inc 14
+Mod 2 14 15
+Add 5 12 2
+Not 7
+Mult 14 2 1
+Inc 14
+SetReg 8 7
+GetA 0
+Countdown 2 10 --> 
+           Dec 8
+           Add 11 12 5
+           TestLess 3 8 6
+           GetA 11
+           CopyVal 0 14
+           Div 1 8 6
+           Define 4 11 --> 
+
+Gen: 2414
+SetAns 6
+Mod 14 5 14
+Mult 3 6 13
+TestLess 15 6 8
+TestEqu 6 2 15
+Mult 0 0 12
+Inc 14
+Mod 2 14 15
+Add 5 12 2
+Mult 14 2 1
+SetReg 8 7
+GetA 0
+Countdown 2 10 --> 
+           Dec 8
+           Add 11 12 5
+           TestNEqu 6 13 11
+           GetA 11
+           CopyVal 0 14
+           Div 1 8 6
+           Define 4 11 --> 
+
+Gen: 2416
+SetAns 6
+Mod 14 5 14
+While 15 5 --> 
+      TestLess 15 6 8
+      TestEqu 6 2 8
+      Mult 0 0 12
+      Inc 14
+      Add 5 12 2
+      Mult 14 2 1
+      Inc 14
+      SetReg 8 7
+      GetA 0
+      Dec 8
+      Add 11 12 5
+      GetA 11
+      CopyVal 0 14
+      Dec 12
+      Div 1 8 6
+      Define 4 11 --> 
+
+Gen: 2423
+SetAns 6
+Mod 14 5 14
+TestEqu 6 2 8
+Mult 0 0 12
+Inc 14
+Add 5 12 2
+Not 7
+Mult 14 2 1
+SetReg 8 7
+GetA 0
+Dec 8
+Add 11 12 5
+TestLess 3 8 6
+GetA 11
+CopyVal 0 14
+Dec 9
+Div 1 8 6
+Define 4 11 --> 
+
+Gen: 2429
+SetAns 6
+Mod 14 5 14
+Mult 0 0 12
+Inc 14
+Add 5 12 2
+Mult 14 2 1
+Push 10 15
+SetReg 8 7
+GetA 0
+Dec 8
+Add 11 12 5
+TestLess 3 8 6
+GetA 11
+CopyVal 0 14
+Dec 9
+Div 1 8 6
+Define 4 11 --> 
+
+Gen: 2439
+SetAns 6
+Mod 14 5 14
+Div 8 12 9
+Mult 0 0 12
+Inc 14
+Add 5 12 2
+Not 7
+Mult 14 2 1
+Push 10 15
+SetReg 8 7
+GetA 0
+Dec 8
+Add 11 12 5
+GetA 11
+CopyVal 0 14
+Div 1 8 6
+
+Gen: 2442
+SetAns 6
+Mod 14 5 14
+Mult 0 0 12
+Inc 14
+Add 5 12 2
+Mult 14 2 1
+Push 10 15
+SetReg 8 7
+GetA 0
+Dec 8
+Add 11 12 5
+TestLess 3 8 6
+GetA 11
+CopyVal 0 14
+Div 1 8 6
+
+Gen: 2459
+SetAns 6
+Mod 14 5 14
+Mult 0 0 12
+Inc 14
+Add 5 12 2
+Mult 14 2 1
+Push 10 15
+SetReg 8 7
+GetA 0
+Dec 8
+Add 11 12 5
+GetA 11
+CopyVal 0 14
+Div 1 8 6
+
+Gen: 2477
+SetAns 6
+Mod 14 5 14
+Mult 0 0 12
+Inc 14
+Add 5 12 2
+Mult 14 2 1
+SetReg 8 7
+GetA 0
+Dec 8
+Add 11 12 5
+GetA 11
+CopyVal 0 14
+Div 1 8 6
+
+Gen: 2612
+SetAns 6
+Mult 14 0 12
+Inc 14
+Add 5 12 2
+Mult 14 2 1
+SetReg 8 7
+GetA 0
+Dec 8
+Add 11 12 5
+GetA 11
+CopyVal 11 14
+Div 1 8 6
+
+Gen: 2995
+SetAns 6
+Mult 11 14 12
+Inc 14
+Add 5 12 2
+Mult 14 2 1
+SetReg 8 7
+Dec 8
+Add 11 12 5
+GetA 11
+CopyVal 11 14
+Div 1 8 6
+
+Gen: 3466
+SetAns 6
+GetA 14
+Mult 14 11 12
+Inc 14
+Add 5 12 2
+GetA 11
+Mult 14 2 1
+SetReg 8 6
+Add 11 12 5
+Div 1 8 6
+

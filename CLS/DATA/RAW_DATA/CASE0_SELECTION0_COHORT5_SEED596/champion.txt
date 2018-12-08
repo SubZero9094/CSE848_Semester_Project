@@ -1,0 +1,45 @@
+Gen: 262
+Dec 3
+Call 5
+SetAns 1
+Dec 13
+Add 2 9 15
+While 13 3 --> 
+    SetAns 2
+    GetA 2
+    TestLess 13 15 13
+    TestLess 6 10 15
+    GetB 1
+    Add 11 2 6
+    Inc 15
+    TestEqu 3 3 7
+ Countdown 15 1 --> 
+  Call 8
+  Sub 7 0 8
+  TestLess 3 14 11
+  Mod 10 14 3
+  GetC 0
+  SetAns 1
+  Inc 12
+  If 3 12 --> 
+             Output 11 0
+             Sub 1 2 3
+             ----
+             Scope 12
+             SetAns 0
+             Add 15 0 6
+             CopyVal 11 14
+             GetB 10
+             If 15 13 --> 
+              TestEqu 6 10 9
+              Push 7 13
+              GetA 1
+              Not 9
+              Input 3 15
+              Inc 15
+              TestNEqu 14 11 9
+              Output 2 9
+              TestLess 6 7 10
+While 8 0 --> 
+ GetC 13
+

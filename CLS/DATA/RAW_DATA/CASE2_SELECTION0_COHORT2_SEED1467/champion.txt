@@ -1,0 +1,79 @@
+Gen: 8367
+Add 8 2 5
+Inc 15
+SetAns 13
+Break 11
+Mult 15 13 8
+If 9 0 --> 
+ ScopeReg 7
+ GetA 5
+ Mult 10 15 10
+ Add 5 15 4
+ TestNEqu 12 14 8
+ Div 10 6 13
+ GetA 15
+ Call 14
+ Mult 4 5 10
+
+Gen: 8368
+Inc 15
+SetAns 13
+Break 11
+If 9 0 --> 
+ ScopeReg 7
+ GetA 5
+ Mult 10 15 10
+ Add 5 15 4
+ TestNEqu 12 14 2
+ Div 10 6 13
+ GetA 15
+ ScopeReg 11
+ Mult 4 5 10
+
+Gen: 8371
+Inc 15
+SetAns 13
+Break 11
+If 9 0 --> 
+ GetA 5
+ Mult 10 15 10
+ Add 5 15 4
+ SetReg 1 12
+ Div 10 6 13
+ GetA 15
+ Call 14
+ Mult 4 5 10
+
+Gen: 8373
+Inc 15
+SetAns 13
+ScopeReg 7
+GetA 5
+Mult 10 15 10
+Add 5 15 4
+Div 10 6 13
+GetA 15
+Call 14
+Mult 4 5 10
+
+Gen: 8457
+Inc 15
+SetAns 13
+GetA 1
+GetA 5
+Mult 10 15 10
+Add 5 15 4
+Div 10 6 13
+GetA 15
+Mult 4 5 10
+
+Gen: 8485
+Inc 15
+SetAns 13
+GetA 5
+Mult 10 15 10
+Add 5 15 4
+Div 10 6 13
+GetA 15
+Mult 4 5 10
+

@@ -1,0 +1,233 @@
+Gen: 9298
+GetA 3
+Pop 1 5
+GetA 4
+Inc 3
+Add 0 5 2
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+Output 14 9
+Push 6 13
+Input 4 15
+Inc 8
+SetAns 2
+GetA 14
+CopyVal 12 1
+Call 14
+CopyVal 12 0
+Pop 11 13
+GetA 8
+Scope 8 --> 
+         CopyVal 10 15
+         Div 4 6 0
+
+Gen: 9300
+GetA 3
+Pop 1 5
+GetA 4
+Inc 3
+Add 0 5 2
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+Output 14 9
+Input 4 15
+Inc 8
+SetAns 2
+GetA 14
+CopyVal 12 1
+Call 14
+CopyVal 12 0
+Pop 11 13
+GetA 8
+Scope 8 --> 
+         CopyVal 10 15
+         Div 4 6 0
+
+Gen: 9301
+GetA 3
+Pop 1 5
+GetA 4
+Inc 3
+Add 0 5 2
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+Push 6 13
+Inc 8
+SetAns 2
+CopyVal 12 1
+Call 14
+CopyVal 12 2
+Pop 11 13
+GetA 8
+Scope 8 --> 
+         CopyVal 10 15
+         Div 4 6 0
+
+Gen: 9307
+GetA 3
+Pop 1 5
+GetA 4
+Inc 3
+Add 0 5 2
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+Output 14 9
+Push 6 13
+Inc 8
+SetAns 2
+Call 14
+Pop 11 13
+GetA 8
+Scope 3 --> 
+    CopyVal 10 15
+    Div 4 6 0
+
+Gen: 9309
+GetA 3
+Pop 1 5
+GetA 4
+Inc 3
+Add 0 5 2
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+Output 14 9
+Push 6 13
+SetAns 2
+Call 14
+Pop 11 13
+GetA 8
+Scope 3 --> 
+    CopyVal 10 15
+    Div 4 6 0
+
+Gen: 9329
+GetA 3
+Pop 7 5
+GetA 4
+Inc 3
+Add 0 5 2
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+While 9 7 --> 
+        Input 4 15
+        SetAns 2
+        GetA 14
+        CopyVal 0 1
+        Call 2
+        CopyVal 12 11
+        Div 4 6 0
+
+Gen: 9332
+GetA 3
+Pop 7 5
+GetA 4
+Inc 3
+Add 0 5 2
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+While 9 7 --> 
+        Input 4 15
+        SetAns 2
+        Call 14
+        CopyVal 12 9
+        Scope 8 --> 
+         Div 4 6 0
+
+Gen: 9346
+GetA 3
+Pop 7 5
+GetA 4
+Inc 3
+Add 0 5 2
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+While 9 7 --> 
+        Input 4 15
+        SetAns 2
+        CopyVal 12 9
+        Scope 8 --> 
+         Div 4 6 0
+
+Gen: 9389
+GetA 3
+Pop 7 5
+GetA 4
+Inc 3
+Add 0 5 2
+Break 6
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+SetAns 2
+GetA 14
+CopyVal 12 5
+Div 4 6 0
+
+Gen: 9401
+GetA 3
+Pop 7 5
+GetA 4
+Inc 3
+Add 0 5 2
+Break 6
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+SetAns 2
+CopyVal 12 5
+Div 4 6 0
+
+Gen: 9412
+GetA 3
+Pop 7 5
+GetA 4
+Inc 3
+Add 0 5 2
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+SetAns 2
+GetA 1
+Div 4 6 0
+
+Gen: 9455
+GetA 3
+Pop 7 5
+GetA 4
+Inc 3
+Add 0 5 2
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+SetAns 2
+Div 4 6 0
+
+Gen: 9515
+GetA 3
+GetA 4
+SetAns 0
+Inc 3
+Add 3 4 0
+Mult 0 3 8
+TestLess 2 2 14
+Mult 8 4 4
+Div 4 6 0
+
+Gen: 9538
+GetA 3
+GetA 4
+SetAns 0
+Inc 3
+Add 3 4 0
+Mult 0 3 8
+Mult 8 4 4
+Div 4 6 0
+

@@ -1,0 +1,118 @@
+Gen: 3858
+Push 8 14
+GetA 14
+Inc 13
+Div 15 6 11
+Dec 0
+Mult 10 8 9
+Inc 15
+Countdown 7 6 --> 
+       Sub 9 8 13
+       GetA 15
+       Scope 11 --> 
+            Sub 13 10 8
+            Pop 15 14
+            Add 15 15 13
+            GetA 5
+            SetAns 8
+        If 13 8 --> 
+If 14 0 --> 
+ Mult 13 15 7
+ Mult 11 7 8
+
+Gen: 4489
+GetA 14
+Inc 13
+Div 15 6 11
+Call 3
+Mult 8 11 9
+Inc 15
+Countdown 7 15 --> 
+                Sub 9 8 13
+                Not 3
+                CopyVal 14 7
+                GetA 15
+                Sub 13 10 8
+                Output 13 14
+                Add 15 15 13
+                SetAns 8
+                Input 11 14
+           If 14 11 --> 
+            Mult 13 15 7
+            Mult 11 7 8
+
+Gen: 5248
+TestLess 6 0 14
+Inc 13
+Div 15 6 11
+Mult 7 8 0
+Inc 15
+Countdown 7 7 --> 
+        Input 11 10
+        Mod 9 5 7
+        Sub 0 8 13
+        Dec 5
+        GetA 15
+        Inc 11
+        Sub 13 1 8
+        Add 15 15 13
+        SetAns 8
+  If 14 2 --> 
+   Mult 13 15 7
+   Mult 11 7 8
+
+Gen: 5844
+TestLess 10 0 14
+Inc 13
+Div 15 6 11
+Mult 7 8 0
+Inc 15
+Countdown 7 11 --> 
+            TestNEqu 8 8 2
+            Sub 6 8 13
+            GetA 15
+            TestNEqu 6 7 7
+            Sub 13 0 8
+            Add 15 15 13
+            SetAns 8
+         If 14 9 --> 
+          Mult 13 15 7
+          GetA 2
+          Mult 11 7 8
+
+Gen: 5860
+TestLess 10 0 14
+Inc 13
+Div 15 6 11
+Mult 10 8 0
+Inc 15
+Countdown 7 11 --> 
+            Sub 6 8 13
+            Div 3 2 2
+            GetA 15
+            TestNEqu 6 7 7
+            Sub 13 0 8
+            Add 15 15 13
+            SetAns 8
+   If 14 3 --> 
+    Mult 13 15 7
+    Mult 11 7 8
+
+Gen: 6497
+TestLess 7 0 14
+Inc 13
+Div 15 6 11
+Mult 13 7 0
+Inc 15
+Countdown 7 0 --> 
+ Sub 3 8 13
+ TestNEqu 14 7 7
+ Sub 13 0 8
+ GetA 15
+ Add 15 15 13
+ SetAns 8
+ ----
+ If 14 0
+ Mult 13 15 7
+ Mult 11 7 8
+
